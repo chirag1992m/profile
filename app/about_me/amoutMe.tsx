@@ -152,8 +152,9 @@ export function AboutMe(): React.ReactElement {
                                     <Link href="/ml_book" passHref>
                                         book
                                     </Link>
-                                    &nbsp;detailing how various industries
-                                    have adopted machine learning transforming themselves.
+                                    &nbsp;detailing how various industries have
+                                    adopted machine learning transforming
+                                    themselves.
                                 </p>
                             </div>
                         </SectionContent>
