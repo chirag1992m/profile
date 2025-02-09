@@ -1,12 +1,21 @@
 import React from 'react'
 
+import { ListDetailView } from '../src/components/ListDetail/ListDetailView'
+import { WritingList } from '../src/components/WritingListDetail/WritingList'
+import { getCategorizedChapters } from './chapters'
+
 export default function Page(): React.ReactElement {
     return (
-        <div className="flex w-full">
-            <div className="flex h-full w-full items-center justify-center">
-                Hi I&apos;m Chirag Maheshwari. This is where I&apos;ll put my
-                book.
-            </div>
-        </div>
+        <ListDetailView
+            list={
+                <WritingList
+                    title="Machine Learning Book"
+                    topNav="ml_book"
+                    categorizedPosts={getCategorizedChapters()}
+                ></WritingList>
+            }
+            hasDetail={false}
+            detail={null}
+        />
     )
 }

@@ -9,10 +9,14 @@ import { type postMetadata } from '../../../writing/posts'
 import { WritingListItem } from './WritingListItem'
 
 interface WritingListProps {
+    title: string
+    topNav: string
     categorizedPosts: Record<string, postMetadata[]>
 }
 
 export const WritingList = ({
+    title,
+    topNav,
     categorizedPosts,
 }: WritingListProps): React.ReactElement => {
     const currentPathname = usePathname()
@@ -20,10 +24,7 @@ export const WritingList = ({
 
     return (
         <ListContainer data-cy="posts-list" onRef={setScrollContainerRef}>
-            <TitleBar
-                scrollContainerRef={scrollContainerRef}
-                title="Writing Posts"
-            />
+            <TitleBar scrollContainerRef={scrollContainerRef} title={title} />
 
             <div className="lg:space-y-1 lg:p-2">
                 {categorizedPosts &&
@@ -48,6 +49,7 @@ export const WritingList = ({
                                         return (
                                             <WritingListItem
                                                 post={post}
+                                                topNav={topNav}
                                                 key={`wl_${i}_${post.slug}`}
                                                 active={active}
                                             />
