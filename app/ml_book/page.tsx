@@ -2,6 +2,7 @@ import React from 'react'
 
 import { ListDetailView } from '../src/components/ListDetail/ListDetailView'
 import { WritingList } from '../src/components/WritingListDetail/WritingList'
+import { getCategorizedChapters } from './chapters'
 
 export default function Page(): React.ReactElement {
     return (
@@ -9,7 +10,8 @@ export default function Page(): React.ReactElement {
             list={
                 <WritingList
                     title="Machine Learning Book"
-                    categorizedPosts={{}}
+                    topNav="ml_book"
+                    categorizedPosts={getCategorizedChapters()}
                 ></WritingList>
             }
             hasDetail={false}

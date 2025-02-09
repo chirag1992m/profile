@@ -10,11 +10,13 @@ import { WritingListItem } from './WritingListItem'
 
 interface WritingListProps {
     title: string
+    topNav: string
     categorizedPosts: Record<string, postMetadata[]>
 }
 
 export const WritingList = ({
     title,
+    topNav,
     categorizedPosts,
 }: WritingListProps): React.ReactElement => {
     const currentPathname = usePathname()
@@ -47,6 +49,7 @@ export const WritingList = ({
                                         return (
                                             <WritingListItem
                                                 post={post}
+                                                topNav={topNav}
                                                 key={`wl_${i}_${post.slug}`}
                                                 active={active}
                                             />

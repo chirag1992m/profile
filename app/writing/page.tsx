@@ -9,7 +9,8 @@ export default function Page(): React.ReactElement {
         <ListDetailView
             list={
                 <WritingList
-                    title="Writing Posts"
+                    title="Blog Posts"
+                    topNav="writing"
                     categorizedPosts={getCategorizedPosts()}
                 ></WritingList>
             }
