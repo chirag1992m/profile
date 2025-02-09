@@ -3,7 +3,7 @@ slug: 'cs-trends-h1-2024-selected-topics'
 title: 'CS Trends H1 2024: Selected Topics'
 subtitle: 'Opinion piece on selected topics'
 category: 'CS Yearly Trends'
-date: '2024-07-20'
+date: '2025-02-10'
 cover_image: '/blog_images/cs-trends-h1-2024/wordcloud.png'
 cover_image_prompt: 'Wordcloud of most used words in AI research papers'
 ---
