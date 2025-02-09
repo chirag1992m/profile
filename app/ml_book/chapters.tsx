@@ -65,7 +65,9 @@ export const getCategorizedChapters = (): Record<string, postMetadata[]> => {
                 category: y.chapter,
                 date: y.date,
                 cover_image: y.cover_image,
-                cover_image_prompt: y.cover_image_prompt ? y.cover_image_prompt : '',
+                cover_image_prompt: y.cover_image_prompt
+                    ? y.cover_image_prompt
+                    : '',
             })
             return x
         },
