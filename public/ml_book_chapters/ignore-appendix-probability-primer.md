@@ -1,5 +1,5 @@
 ---
-slug: 'appendix-probability-primer'
+slug: 'ignore-appendix-probability-primer'
 index: 1
 chapter: 'Appendix'
 title: 'Probability and Information Theory'
