@@ -141,13 +141,22 @@ export function AboutMe(): React.ReactElement {
                                         NestAura
                                     </a>
                                     . <em>ActionSync</em> helps individuals and
-                                    small-medium businesses use generative AI by
-                                    automating software tasks through language
-                                    and an intuitive drag-and-drop UI.{' '}
+                                    small-medium sized businesses create a LLM
+                                    powered personal/enterprise search engine.
                                     <em>NestAura</em>, on the other hand, allows
                                     users to keep track of their healthcare
                                     documents and vitals and receive daily
                                     personalized health nudges.
+                                </p>
+                                <p>
+                                    I have started an exciting challenge of
+                                    writing a&nbsp;
+                                    <Link href="/writing" passHref>
+                                        machine learning book
+                                    </Link>
+                                    &nbsp;focused on how machine learning is
+                                    tranforming different industries, ranging
+                                    from healthcare to entertainment.
                                 </p>
                             </div>
                         </SectionContent>
