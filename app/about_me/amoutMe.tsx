@@ -119,8 +119,10 @@ export function AboutMe(): React.ReactElement {
                                     slides.
                                 </p>
                                 <p>
-                                    Currently, I&apos;m also building two
-                                    exciting projects:&nbsp;
+                                    On the weekends and evenings post-work, I
+                                    work on some personal projects. I&apos;m
+                                    currently working on building two exciting
+                                    projects: &nbsp;
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -138,13 +140,13 @@ export function AboutMe(): React.ReactElement {
                                     >
                                         NestAura
                                     </a>
-                                    . ActionSync helps individuals and
+                                    . <em>ActionSync</em> helps individuals and
                                     small-medium sized businesses create a LLM
                                     powered personal/enterprise search engine.
-                                    NestAura, on the other hand, allows users to
-                                    keep track of their healthcare documents and
-                                    vitals and receive daily personalized health
-                                    nudges.
+                                    <em>NestAura</em>, on the other hand, allows
+                                    users to keep track of their healthcare
+                                    documents and vitals and receive daily
+                                    personalized health nudges.
                                 </p>
                                 <p>
                                     I have started an exciting challenge of
