@@ -8,9 +8,29 @@ cover_image: '/blog_images/cs-trends-h1-2024/wordcloud.png'
 cover_image_prompt: 'Wordcloud of most used words in AI research papers'
 ---
 
-# Selected Topics
+# CS Trends H1 2024: Selected Topics
 
-## Large Language Models
+I thought I'll be writing next article right after the [previous article](/cs-trends-h1-2024) was published. Life keeps getting in between. Anyway, coming to the list of most common words extracted from arxiv articles as given in the banner image wordcloud and introduced in the [previous article](/cs-trends-h1-2024):
+
+```
+neural network, language model, machine learning, deep learning, Experimental results, large language, reinforcement learning, Extensive experiment, natural language, learning model, training data, deep neural, models LLM, convolutional neural, ie, existing methods, results demonstrate, computer vision, code available, learning algorithm, diffusion model, publicly available, generative model, stateoftheart methods, object detection, loss function, time serie, well, point cloud, particular, artificial intelligence, benchmark dataset, addition, context, language processing, demonstrate effectiveness, data set, Moreover, address issue, experiments demonstrate, downstream task, recent year, learning methods, classification task, representation learning, data augmentation, widely used, proposed model, previous work, et al, image classification, wide range, outperforms stateoftheart, one, transfer learning, federated learning, pretrained model, address challenge, given, semantic segmentation, known, Furthermore, form, lower bound, achieves stateoftheart, learning framework, medical image, include, network architecture, graph neural, datasets demonstrate, ii, state art, concept, resulting, significant improvement, consider, output, question answering, describe, contrastive learning, along, latent space, adversarial attack, knowledge graph, effectiveness proposed, second, recent work, models trained, attention mechanism, proposed algorithm, general, significantly outperform, find, significantly improve, demonstrate proposed, computational cost, thu, large number, domain adaptation, gradient descent, across different, source code, anomaly detection, Additionally, ground truth, across various, generative adversarial, synthetic data, combined, utilize, proposed framework, future research, corresponding, case, instance, adversarial network, considered, prior work, enable, employ, Although, upper bound, contrast, combination, variant, learning RL, realworld dataset, model trained, make, called, social media, target domain, operation, machine translation, stateoftheart results, real world, instead, benefit, apply, challenging task, allows us, example, existing approaches, classifier, eg, data distribution, realworld application, labeled data, learning techniques, adversarial example, observation, foundation model, utilizing, outperforms existing, supervised learning, rather, end, implementation, autonomous driving, introduced, represent, sequence, measure, either, recent advance, change, training set, leverage, cluster, feature extraction, compared stateoftheart, provided, perspective, networks CNN, hand, computational complexity, learning task, best knowledge, associated, found, results proposed, allow, characteristic, considering, incorporate, behavior, support, recurrent neural, individual, commonly used, image segmentation, namely, Simulation results, respectively, call, part, construct, common, presented
+```
+
+We'll try go over each of them, ignoring some of them, briefly explain some of them and going slightly deeper into all others.
+
+## Ignored Words
+
+## Brief Explanations
+
+## Important Topics
+
+### Machine Learning / Learning Algorithm
+
+### Representation Learning
+
+### Neural Network
+
+### Large Language Models
 
 Have you heard of ChatGPT? If not, it's time to catch up with one of the fastest-growing tech products. Launched in November 2022, ChatGPT [amassed one million users in just five days](https://explodingtopics.com/blog/chatgpt-users). The name ChatGPT combines "chat" and "GPT," which stands for Generative Pretrained Transformer, indicating that you are interacting with a sophisticated machine learning model. While we will delve deeper into the concepts of **GPT** in another technical blog, for now, we will refer to this sophisticated and VERY _LARGE_ machine learning _model_ to imitate human _lanaguage_, commonly known as a **LLM**.
 

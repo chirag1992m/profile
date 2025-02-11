@@ -11,6 +11,8 @@ import remarkMath from 'remark-math'
 import { CodeBlock } from './CodeBlock'
 
 function LinkRenderer({ href, ...rest }: any) {
+    console.log('Am here', href, rest)
+
     // auto-link headings
     if (href.startsWith('#')) {
         return <a href={href} {...rest} />
