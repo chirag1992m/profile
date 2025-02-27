@@ -10,11 +10,13 @@ import { TitleBar } from '../TitleBar'
 import { MarkdownRenderer } from '../MarkdownRenderer'
 
 export interface WritingDetailProps {
+    topNav: string
     postMetadata: postMetadata
     postContent: string
 }
 
 export const WritingDetailView: React.FC<WritingDetailProps> = ({
+    topNav,
     postMetadata,
     postContent,
 }: WritingDetailProps) => {
@@ -26,7 +28,7 @@ export const WritingDetailView: React.FC<WritingDetailProps> = ({
             <TitleBar
                 backButton
                 globalMenu={false}
-                backButtonHref={'/writing'}
+                backButtonHref={`/${topNav}`}
                 magicTitle
                 title={postMetadata.title}
                 titleRef={titleRef}

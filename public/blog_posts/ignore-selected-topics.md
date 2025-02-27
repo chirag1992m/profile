@@ -1,7 +1,7 @@
 ---
 slug: 'ignore-selected-topics'
 title: 'Selected Topics'
-subtitle: 'Opinion piecen on selected topics'
+subtitle: 'Opinion piece on selected topics'
 category: 'Ignore'
 date: '2024-07-30'
 cover_image: '/blog_images/cs-trends-h1-2024/cover_image.png'
