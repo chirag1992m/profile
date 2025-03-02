@@ -43,7 +43,8 @@ export const WritingDetailView: React.FC<WritingDetailProps> = ({
                         className="rounded-2xl"
                         quality={100}
                         alt={
-                            postMetadata.cover_image_prompt
+                            postMetadata.cover_image_prompt != null &&
+                            postMetadata.cover_image_prompt !== ''
                                 ? postMetadata.cover_image_prompt
                                 : postMetadata.title
                         }

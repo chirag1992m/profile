@@ -15,11 +15,12 @@ export interface postMetadata {
 }
 
 export const getAllPostsMetadata = (): postMetadata[] => {
-    const inDevEnvironment = !!process && process.env.NODE_ENV === 'development'
+    const inDevEnvironment: boolean = process.env.NODE_ENV === 'development'
 
     const markdownPosts = fs
         .readdirSync(BlogPostFolder)
         .filter((file) => file.endsWith('.md'))
+        // If dev, keep all files; otherwise skip ones that start with "ignore-"
         .filter((file) =>
             inDevEnvironment ? true : !file.startsWith('ignore-')
         )
@@ -36,9 +37,10 @@ export const getAllPostsMetadata = (): postMetadata[] => {
             category: matterResult.data.category,
             date: matterResult.data.date,
             cover_image: matterResult.data.cover_image,
-            cover_image_prompt: matterResult.data.cover_image_prompt
-                ? matterResult.data.cover_image_prompt
-                : '',
+            cover_image_prompt:
+                typeof matterResult.data.cover_image_prompt === 'string'
+                    ? matterResult.data.cover_image_prompt
+                    : '',
         }
     })
 
@@ -47,13 +49,12 @@ export const getAllPostsMetadata = (): postMetadata[] => {
 
 export const getCategorizedPosts = (): Record<string, postMetadata[]> => {
     const postsMetadata = getAllPostsMetadata()
-    const categories: Record<string, postMetadata[]> = postsMetadata.reduce(
-        (x, y) => {
-            ;(x[y.category] = x[y.category] || []).push(y)
-            return x
-        },
-        {}
-    )
+    const categories: Record<string, postMetadata[]> = postsMetadata.reduce<
+        Record<string, postMetadata[]>
+    >((x, y) => {
+        ;(x[y.category] = x[y.category] || []).push(y)
+        return x
+    }, {})
 
     return categories
 }
@@ -76,9 +77,10 @@ export const getWritingPost = (slug: string): WritingDetailProps | null => {
                 category: matterResult.data.category,
                 date: matterResult.data.date,
                 cover_image: matterResult.data.cover_image,
-                cover_image_prompt: matterResult.data.cover_image_prompt
-                    ? matterResult.data.cover_image_prompt
-                    : '',
+                cover_image_prompt:
+                    typeof matterResult.data.cover_image_prompt === 'string'
+                        ? matterResult.data.cover_image_prompt
+                        : '',
             },
             postContent: matterResult.content,
         }

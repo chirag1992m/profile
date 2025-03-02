@@ -40,7 +40,7 @@ function SideBar({
                 <SideBarNavigation
                     navigationSections={navSections}
                 ></SideBarNavigation>
-                {footerProps && (
+                {footerProps != null && (
                     <SideBarFooter label={footerProps.label}></SideBarFooter>
                 )}
             </nav>

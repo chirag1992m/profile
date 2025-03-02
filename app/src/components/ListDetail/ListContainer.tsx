@@ -9,7 +9,7 @@ export function ListContainer({
 
     React.useEffect(() => {
         onRef(scrollContainerRef)
-    }, [scrollContainerRef])
+    }, [onRef, scrollContainerRef])
 
     return (
         <div

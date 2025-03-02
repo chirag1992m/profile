@@ -44,7 +44,7 @@ export function SideBarNavigationLink({
                     {linkProps.icon}
                 </span>
                 <span className="flex-1">{linkProps.label}</span>
-                {linkProps.trailingIcon && (
+                {linkProps.trailingIcon != null && (
                     <span className="flex items-center justify-center w-4 text-black text-opacity-40 dark:text-white">
                         {linkProps.trailingIcon}
                     </span>

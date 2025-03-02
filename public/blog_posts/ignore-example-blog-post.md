@@ -2,7 +2,7 @@
 slug: 'ignore-example-blog-post'
 title: 'Example Blogpost'
 subtitle: 'Example blog, showing markdown powers'
-category: 'Ignore'
+category: 'Ignore (only dev)'
 date: '2024-05-15'
 cover_image: '/blog_images/ignore-example-blog-post/plant_lifecycle.webp'
 cover_image_prompt: 'Some prompt for the cover image'
@@ -29,6 +29,19 @@ Hello this is my first blog after a long time on XGBoost.
 Here is an example of a plugin in action
 ([`remark-toc`](https://github.com/remarkjs/remark-toc)).
 **This section is replaced by an actual table of contents**.
+
+### Collapsible Blocks
+
+You can create collapsible with the `details` and `summary` HTML5 tags.
+
+<details>
+<summary>Collapsible Block Heading</summary>
+
+#### Collapsible Block Hidden Heading
+
+Content here
+
+</details>
 
 ## Syntax highlighting
 

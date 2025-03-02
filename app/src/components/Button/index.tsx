@@ -23,11 +23,11 @@ function BaseButton({
     href: string | undefined
     forwardedRef: React.ForwardedRef<HTMLAnchorElement> | null
 }): React.ReactElement | undefined {
-    if (href && href.startsWith('/')) {
+    if (typeof href === 'string' && href.startsWith('/')) {
         return <Link href={href} {...rest} />
     }
 
-    if (href) {
+    if (typeof href === 'string' && href !== '') {
         return <a ref={forwardedRef} href={href} {...rest} />
     }
 }
@@ -93,7 +93,7 @@ export const Button = React.forwardRef(
         const opacity = composer.getOpacity(props.disabled)
         const radius = composer.getRadius(props.size)
         const composed = `${baseClasses} ${size} ${opacity} ${radius} ${classes}`
-        if (props.href) {
+        if (typeof props.href === 'string' && props.href !== '') {
             return (
                 <BaseButton
                     href={String(props.href)}
