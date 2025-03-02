@@ -26,7 +26,7 @@ export const WritingList = ({
             />
 
             <div className="lg:space-y-1 lg:p-2">
-                {categorizedPosts &&
+                {categorizedPosts != null &&
                     Object.entries(categorizedPosts).map(
                         ([category, posts]) => {
                             return (

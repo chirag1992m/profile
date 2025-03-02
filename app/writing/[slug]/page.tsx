@@ -9,7 +9,7 @@ import {
     getWritingPost,
 } from '../posts'
 
-export function generateStaticParams() {
+export function generateStaticParams(): Array<{ slug: string }> {
     const posts = getAllPostsMetadata()
 
     const paths = posts.map((post) => ({
@@ -35,12 +35,12 @@ export default function Page({
             }
             hasDetail={Boolean(post)}
             detail={
-                post && (
+                post != null ? (
                     <WritingDetailView
                         postMetadata={post.postMetadata}
                         postContent={post.postContent}
                     ></WritingDetailView>
-                )
+                ) : null
             }
         />
     )

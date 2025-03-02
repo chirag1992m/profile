@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import Markdown from 'react-markdown'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
@@ -16,7 +17,16 @@ const customSanitizeSchema = {
     tagNames: [...(defaultSchema.tagNames ?? []), 'details', 'summary'],
 }
 
-function LinkRenderer({ href, ...rest }: any) {
+interface LinkRendererProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+    href?: string
+  }
+
+function LinkRenderer({ href, ...rest }: LinkRendererProps): React.ReactElement {
+    // If href is not a string, treat it as invalid
+    if (typeof href !== 'string') {
+        return <a target="_blank" rel="noopener" href="#" {...rest} />
+    }
+
     // auto-link headings
     if (href.startsWith('#')) {
         return <a href={href} {...rest} />
@@ -41,6 +51,7 @@ function LinkRenderer({ href, ...rest }: any) {
 function getComponentsForVariant() {
     return {
         a: LinkRenderer,
+
         pre({ node, inline, className, children, ...props }) {
             const language = /language-(\w+)/.exec(className || '')?.[1]
             return !inline && language ? (

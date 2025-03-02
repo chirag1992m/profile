@@ -14,6 +14,13 @@ const nextConfig = {
     // distDir: 'dist',
     images: {
         unoptimized: true,
+        // Add the external domains your images come from
+        remotePatterns: [
+            {
+            protocol: 'https',
+            hostname: 'c.statcounter.com',
+            },
+        ],
     },
 }
 

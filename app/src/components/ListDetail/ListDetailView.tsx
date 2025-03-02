@@ -11,7 +11,7 @@ export function ListDetailView({
 }: ListDetailViewProps): React.ReactElement {
     return (
         <div className="flex w-full">
-            {list && (
+            {list != null && (
                 <div
                     id="list"
                     className={`bg-dots ${
