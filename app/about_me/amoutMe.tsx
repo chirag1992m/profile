@@ -51,10 +51,10 @@ const TableRow: React.FC<TableRowProps> = ({ href, title, subtitle, date }) => {
                 {title}
             </strong>
             <span className="w-full border-t border-gray-300 border-dashed shrink dark:border-gray-800" />
-            {subtitle && (
+            {subtitle != null && subtitle !== '' && (
                 <span className="flex-none text-tertiary">{subtitle}</span>
             )}
-            {date && (
+            {date != null && date !== '' && (
                 <span className="flex-none font-mono text-quaternary">
                     {date}
                 </span>
@@ -142,7 +142,7 @@ export function AboutMe(): React.ReactElement {
                                     </a>
                                     . <em>ActionSync</em> helps individuals and
                                     small-medium sized businesses create a LLM
-                                    powered personal/enterprise search engine.
+                                    powered personal/enterprise search engine.{' '}
                                     <em>NestAura</em>, on the other hand, allows
                                     users to keep track of their healthcare
                                     documents and vitals and receive daily
