@@ -17,8 +17,8 @@ const nextConfig = {
         // Add the external domains your images come from
         remotePatterns: [
             {
-            protocol: 'https',
-            hostname: 'c.statcounter.com',
+                protocol: 'https',
+                hostname: 'c.statcounter.com',
             },
         ],
     },

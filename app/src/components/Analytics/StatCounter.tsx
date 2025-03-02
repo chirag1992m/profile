@@ -1,5 +1,5 @@
-import { type ReactElement } from "react"
-import Image from "next/image"
+import Image from 'next/image'
+import { type ReactElement } from 'react'
 
 // To look at analytics, go to website: https://statcounter.com/p13010447/?guest=1
 const StatCounter = (): ReactElement => {

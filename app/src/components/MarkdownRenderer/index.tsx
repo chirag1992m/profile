@@ -1,5 +1,5 @@
-import React from 'react'
 import Link from 'next/link'
+import React from 'react'
 import Markdown from 'react-markdown'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeKatex from 'rehype-katex'
@@ -17,11 +17,15 @@ const customSanitizeSchema = {
     tagNames: [...(defaultSchema.tagNames ?? []), 'details', 'summary'],
 }
 
-interface LinkRendererProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+interface LinkRendererProps
+    extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
     href?: string
-  }
+}
 
-function LinkRenderer({ href, ...rest }: LinkRendererProps): React.ReactElement {
+function LinkRenderer({
+    href,
+    ...rest
+}: LinkRendererProps): React.ReactElement {
     // If href is not a string, treat it as invalid
     if (typeof href !== 'string') {
         return <a target="_blank" rel="noopener" href="#" {...rest} />
