@@ -30,6 +30,19 @@ Here is an example of a plugin in action
 ([`remark-toc`](https://github.com/remarkjs/remark-toc)).
 **This section is replaced by an actual table of contents**.
 
+### Collapsible Blocks
+
+You can create collapsible with the `details` and `summary` HTML5 tags.
+
+<details>
+<summary>Collapsible Block Heading</summary>
+
+#### Collapsible Block Hidden Heading
+
+Content here
+
+</details>
+
 ## Syntax highlighting
 
 Here is an example of a plugin to highlight code:

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Markdown from 'react-markdown'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeKatex from 'rehype-katex'
+import rehypeRaw from 'rehype-raw'
 import rehypeSanitize, { defaultSchema } from 'rehype-sanitize'
 import rehypeSlug from 'rehype-slug'
 import remarkGfm from 'remark-gfm'
@@ -10,9 +11,12 @@ import remarkMath from 'remark-math'
 
 import { CodeBlock } from './CodeBlock'
 
-function LinkRenderer({ href, ...rest }: any) {
-    console.log('Am here', href, rest)
+const customSanitizeSchema = {
+    ...defaultSchema,
+    tagNames: [...(defaultSchema.tagNames ?? []), 'details', 'summary'],
+}
 
+function LinkRenderer({ href, ...rest }: any) {
     // auto-link headings
     if (href.startsWith('#')) {
         return <a href={href} {...rest} />
@@ -80,7 +84,8 @@ export function MarkdownRenderer(props: any) {
                 linkifyRegex(/^(?!.*\bRT\b)(?:.+\s)?@\w+/i),
             ]}
             rehypePlugins={[
-                [rehypeSanitize, defaultSchema],
+                rehypeRaw,
+                [rehypeSanitize, customSanitizeSchema],
                 rehypeSlug,
                 [rehypeKatex, { output: 'mathml' }],
                 [rehypeAutolinkHeadings, { behavior: 'wrap' }],
