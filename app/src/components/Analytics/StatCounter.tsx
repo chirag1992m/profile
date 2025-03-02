@@ -34,8 +34,8 @@ const StatCounter = (): ReactElement => {
                             src="https://c.statcounter.com/13010447/0/1b08eb98/1/"
                             alt="Web Analytics"
                             referrerPolicy="no-referrer-when-downgrade"
-                            width={88}    // <--- Required
-                            height={31}   // <--- Required
+                            width={88} // <--- Required
+                            height={31} // <--- Required
                         />
                     </a>
                 </div>
