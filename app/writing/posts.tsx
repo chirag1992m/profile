@@ -49,13 +49,12 @@ export const getAllPostsMetadata = (): postMetadata[] => {
 
 export const getCategorizedPosts = (): Record<string, postMetadata[]> => {
     const postsMetadata = getAllPostsMetadata()
-    const categories: Record<string, postMetadata[]> = postsMetadata.reduce(
-        (x, y) => {
-            ;(x[y.category] = x[y.category] || []).push(y)
-            return x
-        },
-        {} as Record<string, postMetadata[]>
-    )
+    const categories: Record<string, postMetadata[]> = postsMetadata.reduce<
+        Record<string, postMetadata[]>
+    >((x, y) => {
+        ;(x[y.category] = x[y.category] || []).push(y)
+        return x
+    }, {})
 
     return categories
 }
