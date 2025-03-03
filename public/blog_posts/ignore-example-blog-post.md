@@ -155,6 +155,18 @@ L = \frac{1}{2} \rho v^2 S C_L
 /blog_images/ignore-example-blog-post/plot_1.json
 ```
 
+## React Diagrams by PlantUML
+
+Create your diagram using the [`PlantUML jar`](https://plantuml.com/download) and use that to generate the SVG representation of the diagram and embed as an image.
+
+Command to generate the SVG image:
+
+```bash
+java -jar plantuml.jar -tsvg /path/to/text/file/containing/plantUML_schema.puml
+```
+
+![PlantUML SVG](/blog_images/ignore-example-blog-post/plantuml_example.svg)
+
 ---
 
 ## More info?
