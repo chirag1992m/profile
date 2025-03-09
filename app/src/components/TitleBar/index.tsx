@@ -144,7 +144,7 @@ export function TitleBar({
                         {backButton && (
                             <Link
                                 href={backButtonHref}
-                                className="flex items-center justify-center p-2 rounded-md text-primary hover:bg-gray-200 dark:hover:bg-gray-800 lg:hidden"
+                                className="flex items-center justify-center p-2 rounded-md text-primary hover:bg-gray-200 dark:hover:bg-gray-800 xl:hidden"
                             >
                                 <FaArrowLeft className="text-primary" />
                             </Link>
