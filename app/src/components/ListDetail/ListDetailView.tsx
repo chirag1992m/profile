@@ -15,7 +15,7 @@ export function ListDetailView({
                 <div
                     id="list"
                     className={`bg-dots ${
-                        hasDetail ? 'hidden lg:flex' : 'min-h-screen w-full'
+                        hasDetail ? 'hidden xl:flex' : 'min-h-screen w-full'
                     }`}
                 >
                     {list}
