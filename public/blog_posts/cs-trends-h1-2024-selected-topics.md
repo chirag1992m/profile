@@ -59,7 +59,7 @@ When we talk about a machine learning from data, we're essentially deciding *how
 
 #### Supervised Learning
 
-In **Supervised Learning**, the machine is trained on a labeled dataset—meaning each example comes with the “correct answer.” Think of it as having a personal tutor who checks your homework: you try to solve math problems (predict something), and the tutor immediately tells you if you’re right or wrong. Over time, you learn to get more problems right on your own. This is the most common way of *training* machines.
+In **Supervised Learning**, the machine is trained on a **labeled dataset**—meaning each example comes with the “correct answer.” This correct answer is often referred to as the **ground truth**. Think of it as having a personal tutor who checks your homework: you try to solve math problems (predict something), and the tutor immediately tells you if you’re right or wrong. Over time, you learn to get more problems right on your own. This is the most common way of *training* machines.
 
 #### Reinforcement Learning
 
