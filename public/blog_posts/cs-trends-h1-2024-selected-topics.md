@@ -55,13 +55,19 @@ The second approach is known as _Machine Learning (ML)_. In ML, a computer uses 
 
 ### Types of Learnings
 
-But, how _CAN_ a machine learn? What _KIND_ of data can it learn from?
+When we talk about a machine learning from data, we're essentially deciding *how* it acquires knowledge. Just as humans learn from parents and teachers telling us what's right or wrong, by interacting with different objects around us, or by introspecting—so too can a machine. These approaches are commonly grouped into three main categories (though the third, sadly, didn’t show up among the most common words from the research, it remains one of the most important). Understanding these categories helps us appreciate why certain algorithms excel at specific tasks and how different learning methods can be combined to build more versatile AI systems.
 
 #### Supervised Learning
 
-#### Unsupervised Learning
+In **Supervised Learning**, the machine is trained on a labeled dataset—meaning each example comes with the “correct answer.” Think of it as having a personal tutor who checks your homework: you try to solve math problems (predict something), and the tutor immediately tells you if you’re right or wrong. Over time, you learn to get more problems right on your own. This is the most common way of *training* machines.
 
 #### Reinforcement Learning
+
+With **Reinforcement Learning (RL)**, machines learn by trial and error in an environment that rewards or penalizes their actions. This is somewhat like training a pet: when the pet does something good (e.g., fetch a ball), it gets a treat. When it messes up (e.g., chew on your slippers), it gets scolded. Over many attempts, the machine figure out which actions yield the best outcomes in different scenarios.
+
+#### Unsupervised Learning
+
+In **Unsupervised Learning**, there are no labeled examples—no right or wrong answers. The machine’s job is to uncover hidden patterns or structures in the data. Unsupervised methods are especially valuable when labels are scarce or non-existent, and they often serve as a foundation for more advanced tasks in both supervised and reinforcement settings.
 
 ### Large Language Models
 
