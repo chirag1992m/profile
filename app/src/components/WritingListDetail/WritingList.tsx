@@ -42,6 +42,7 @@ export const WritingList = ({
                                     </h4>
                                     {posts.map((post, i) => {
                                         const activeSlug = currentPathname
+                                            .replace(/\/$/, '')
                                             .split('/')
                                             .pop()
                                         const active = activeSlug === post.slug
