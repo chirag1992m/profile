@@ -48,10 +48,20 @@ Artificial Intelligence (AI) is a branch of computer science dedicated to creati
 
 When trying to build Artificial Intelligence (AI), there are generally two ways to give machines “intelligence”:
 
-1. **Hand-coded Rules**: Write down every single rule or step the machine should follow. For example, you could program a chess computer by teaching it every valid chess move and telling it exactly what to do in each situation.
+1. **Hand-coded Rules**: Write down every single rule or step the machine should follow. For example, you could program a chess computer by teaching it every valid chess move and telling it exactly what to do in each situation. This is time-consuming, but precise. It often relies on logic and principles which we can
 2. **Learning from Data**: Provide the machine with lots of examples and let it find patterns on its own, without explicitly programming every rule.
 
 The second approach is known as _Machine Learning (ML)_. In ML, a computer uses a _learning algorithm_ to discover patterns in large amounts of data—rather than relying on rules that programmers have written by hand. This ability to “learn” from data makes ML the most popular way to build modern AI systems.
+
+### Types of Learnings
+
+But, how _CAN_ a machine learn? What _KIND_ of data can it learn from?
+
+#### Supervised Learning
+
+#### Unsupervised Learning
+
+#### Reinforcement Learning
 
 ### Large Language Models
 
