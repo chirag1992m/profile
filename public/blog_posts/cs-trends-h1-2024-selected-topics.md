@@ -32,7 +32,7 @@ We'll go over the most relevant terms, filtering out common or redundant words. 
 
 These words are excluded from our analysis as they are either too common or redundant:
 
-> Extensive experiment, learning model, deep neural, models LLM, ie, existing methods, results demonstrate, code available, well, particular, addition, context, language processing, demonstrate effectiveness, Moreover, address issue, experiments demonstrate, downstream task, recent year, learning methods, widely used, proposed model, previous work, et al, image classification, wide range, outperforms stateoftheart, one, address challenge, given, known, Furthermore, form, achieves stateoftheart, learning framework, include, datasets demonstrate, ii, state art, concept, resulting, significant improvement, consider, output, describe, along, effectiveness proposed, second, recent work, proposed algorithm, general, significantly outperform, find, significantly improve, demonstrate proposed, thu, large number, across different, source code, Additionally, across various, combined, utilize, proposed framework, future research, corresponding, case, instance, considered, prior work, enable, employ, Although, upper bound, contrast, combination, variant, model trained, make, called, operation, stateoftheart results, real world, instead, benefit, apply, challenging task, allows us, example, existing approaches, eg, realworld application, learning techniques, adversarial example, observation, utilizing, outperforms existing, rather, end, implementation, introduced, represent, sequence, measure, either, recent advance, change, training set, leverage, compared stateoftheart, provided, perspective, networks CNN, hand, computational complexity, learning task, best knowledge, associated, found, results proposed, allow, characteristic, considering, incorporate, behavior, support, individual, commonly used, namely, Simulation results, respectively, call, part, construct, common, presented, publicly available, models trained, medical image, lower bound, learning rl
+> Extensive experiment, learning model, deep neural, models LLM, ie, existing methods, results demonstrate, code available, well, particular, addition, context, language processing, demonstrate effectiveness, Moreover, address issue, experiments demonstrate, downstream task, recent year, learning methods, widely used, proposed model, previous work, et al, image classification, wide range, outperforms stateoftheart, one, address challenge, given, known, Furthermore, form, achieves stateoftheart, learning framework, include, datasets demonstrate, ii, state art, concept, resulting, significant improvement, consider, output, describe, along, effectiveness proposed, second, recent work, proposed algorithm, general, significantly outperform, find, significantly improve, demonstrate proposed, thu, large number, across different, source code, Additionally, across various, combined, utilize, proposed framework, future research, corresponding, case, instance, considered, prior work, enable, employ, Although, upper bound, contrast, combination, variant, model trained, make, called, operation, stateoftheart results, real world, instead, benefit, apply, challenging task, allows us, example, existing approaches, eg, realworld application, learning techniques, adversarial example, observation, utilizing, outperforms existing, rather, end, implementation, introduced, represent, sequence, measure, either, recent advance, change, training set, leverage, compared stateoftheart, provided, perspective, networks CNN, hand, computational complexity, learning task, best knowledge, associated, found, results proposed, allow, characteristic, considering, incorporate, behavior, support, individual, commonly used, namely, Simulation results, respectively, call, part, construct, common, presented, publicly available, models trained, medical image, lower bound, learning rl, social media
 
 </details>
 
@@ -79,7 +79,7 @@ In a dataset, to describe where the data comes from, which domain, the range in 
 
 Until Artificial General Intelligence (AGI) becomes widely available—if it ever does—we need machines capable of performing specific tasks. Even if AGI eventually exists and remains accessible only to a small group of people (due to massive computational requirements), purpose-built models will still be essential. After all, physical constraints like size, energy consumption, and raw materials make it impractical to deploy a single universal intelligence everywhere (yet).
 
-> "You don't need a bulldozer to trim a small garden full of flowers." - me
+> "You don't need a bulldozer to trim a small garden of flowers and bushes." - me
 
 As we were talking about datasets, domain, etc.; Tasks in Machine Learning are defined based on what data we can collect, store, move-around in computers, wherein the _artificial_ intelligence resides. In a computer, we can collect data formats like text, images, audio, videos (they are just images and audio aligned on the time-scale). The tasks in Machine Learning thus revolve around manipulating or identifying these discrete formats, most machine learning tasks fall into a few broad categories sharing common solutions, techniques and underlying principles. Irrespective of the format of data, most use cases boil down to two main objectives:
 
@@ -90,27 +90,70 @@ There are many names of different niche problems in machine learning. Classifica
 
 Across all these tasks, researchers continually push the boundaries with new _state-of-the-art_ approaches, which set fresh benchmarks for accuracy, efficiency, and adaptability in real-world scenarios. Whether it’s classifying images, detecting anomalies, or translating text across languages, these specialized (and increasingly powerful) models illustrate how far we’ve come—and how much potential remains—in the evolving field of machine learning.
 
-### Large Language Models
+### Neural Networks
 
-Have you heard of ChatGPT? If not, it's time to catch up with one of the fastest-growing tech products. Launched in November 2022, ChatGPT [amassed one million users in just five days](https://explodingtopics.com/blog/chatgpt-users). The name ChatGPT combines "chat" and "GPT," which stands for Generative Pretrained Transformer, indicating that you are interacting with a sophisticated machine learning model. While we will delve deeper into the concepts of **GPT** in another technical blog, for now, we will refer to this sophisticated and VERY _LARGE_ machine learning _model_ to imitate human _lanaguage_, commonly known as a **LLM**.
+Neural networks is basically a network of neurons. Neurons in computers are modeled against the neurons in our brain. They are tiny decision makers.
 
-This ML model is trained on a vast corpus of digitized knowledge to generate text by [continuously determining the next word based on preceding words](https://en.wikipedia.org/wiki/Autoregressive_model) until a designated stop word is reached. There are [numerous models](https://huggin
-gface.co/spaces/lmsys/chatbot-arena-leaderboard) available, each with its strengths and weaknesses. The capabilities of this ML model are remarkable, including generating realistic [images](https://www.midjourney.com/home) and [videos](https://lumalabs.ai/dream-machine), composing [poetry](https://lil.law.harvard.edu/blog/2022/12/20/chatgpt-poems-and-secrets/), creating [music](https://suno.com/), writing [code](https://github.com/features/copilot), diagnosing [diseases](https://arxiv.org/pdf/2312.00164), predicting [protein structures](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10410766/), and even assisting in the development of targeted cancer treatments, all with a simple [prompt](https://en.wikipedia.org/wiki/Prompt_engineering) given in human language. This variant of artificial intelligenc is supported and funded by investment in Big Technology Firms and venture capitalists from . As one of the most transformative technologies of our era, it influences various aspects of life, from macro-level geopolitical effects [^2] to micro-level interactions with our beloved devices, like smartphones [^3].
+-   Computer **Neuron**: A neuron takes a handful of numbers (inputs), multiplies each by a personal “preference” (**weight**), adds a bias term (its gut feeling), then asks a nonlinear question like “Is the result bigger than zero?” The answer—usually squashed between 0 and 1—gets passed along.
+-   **Neural Network**: Connecting tens, thousands, ..., billions of computer neurons to create a neural network. The architecture of the neural network defines how these neurons are connected to each other and how the information flows between them, kind of like wiring of these neurons.
 
-[^2]: https://www.lazard.com/research-insights/the-geopolitics-of-artificial-intelligence/
-[^3]: https://www.apple.com/apple-intelligence/
+During training, gradient descent nudges each weight so the neuron’s output helps reduce the overall loss function. Think of millions of microscopic knobs twisting in concert until the network’s predictions finally land on target. One neuron might detect an edge in an image, a pop in an audio clip, or the word “not” in a sentence. Stack thousands into layers, and higher-level concepts emerge—eyes, chords, sarcasm. It’s emergent complexity built from embarrassingly simple parts.
 
-In the near future, it is likely that any text, image, or video you encounter on the internet or elsewhere will be partly or wholly generated by a machine learning model. Indeed, portions of this and other blogs on this website have been enhanced by such a chatbot. Despite the current excitement around Artificial Intelligence and its transformative potential, there are concerns about it leading to a scientific monoculture [^4] and the degradation of scientific inquiry [^5]. Although AI tools can objectively boost productivity, they may also result in reduced learning and understanding. If you always have an expert by your side, would you ever strive to become an expert yourself? This could lead to the proliferation of misinformation and job losses [^6] due to the risks associated with Artificial General Intelligence. Additionally, it may provide better tools for scammers to commit identity theft or impersonate loved ones over the phone, enable politicians to create targeted political propaganda, or allow terrorists to engineer dangerous biological materials. Another significant issue is the substantial energy consumption of this technology, which accelerates climate change—a major looming threat to humanity [^7]. Consequently, governments worldwide are racing to create long-term governance frameworks to research, develop, and commercialize this technology [^8].
+Real brain neurons fire spikes; artificial ones shuffle floating-point numbers. The metaphor isn’t perfect, but the inspiration holds: lots of tiny units, each with limited insight, can collaborate to form rich perceptions and decisions.
 
-[^4]: [Artificial intelligence and illusions of understanding in scientific research](https://www.nature.com/articles/s41586-024-07146-0)
-[^5]: [The exponential enshitification of science](https://garymarcus.substack.com/p/the-exponential-enshittification)
-[^6]: https://fortune.com/2024/05/14/ai-tsunami-imf-chief-labor-market-job-loss/
-[^7]: [AI data centers wreaks havoc on power grids](https://www.bloomberg.com/graphics/2024-ai-data-centers-power-grids/), [AI Energy consumption](https://spectrum.ieee.org/ai-energy-consumption)
-[^8]: [President Biden Issues Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence](https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/)
+### Representing Data For Learning
 
-As with any great technology it has its pros and cons. As long as the pros largely outweigh the cons, this technology should overall improve and uplift our lives, isn't it? For example, even though LLM take immense amount of energy to train, once trained they are super useful and can help in all sorts of tasks. It's much better to use a LLM to write faster and overall save time and energy [^9]. It's not AI that is going to take your job, but someone who knows how to use AI might [^10]. At the same time, LLMs bring tools of creativity accessible to each and everyone in the world as distribution and access to these tools becomes wider. If people accept this as the most useful tool[^11] created since the birth of a computer and internet or hate it[^12], only time will tell, but, the genie is surely out of the bottle and there's no putting it back.
+Before any model can dazzle us with predictions, it first has to **see** the data in a way that makes sense. That early makeover stage—turning raw pixels, characters, or sensor blips into something a machine can reason about—is called **feature extraction**.
 
-[^9]: [Comparing the energy footprint of a human an a LLM](https://cacm.acm.org/blogcacm/the-energy-footprint-of-humans-and-large-language-models/)
-[^10]: [Human + AI](https://www.businessinsider.com/ai-wont-take-your-job-someone-who-uses-it-might-2023-5)
-[^11]: [Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/pdf/2303.12712)
-[^12]: [Hollywood's strike against AI](https://apnews.com/article/hollywood-ai-strike-wga-artificial-intelligence-39ab72582c3a15f77510c9c30a45ffc8)
+1. **Hand-crafted features (the classics).**
+   Once upon a time, engineers manually designed edge detectors for images or TF-IDF vectors for text. These features worked, but they were brittle and labor-intensive—you needed domain expertise for every new problem.
+
+2. **Deep learning takes over.**
+   Modern **neural networks** learn their own features directly from data. Layer by layer, they transform inputs into increasingly abstract patterns. Early layers might notice edges or phonemes; deeper layers latch onto faces, topics, or heartbeat irregularities. This automatic discovery process is what we call **representation learning**.
+
+3. **Contrastive learning: teaching by comparison.**
+   Suppose you have two different photos of the same dog. A contrastive learner pulls those images _together_ in its **latent space** while pushing random cats, cars, and cupcakes _apart_. With no labels required, the network learns a rich encoding that often rivals fully supervised training. Techniques like SimCLR, MoCo, and CLIP ride on this idea.
+
+4. **Why “latent space” matters.**
+   Think of latent space as a high-dimensional map where similar things **cluster** naturally—dog images here, jazz riffs there, fraudulent transactions way over there. A well-shaped latent space makes downstream tasks (classification, retrieval, even generation) dramatically easier.
+
+5. **The gritty details: gradient descent & loss functions.**
+   All this learning happens because the network repeatedly guesses, measures error via a **loss function**, and nudges its weights using **gradient descent**. Whether you’re minimizing contrastive loss or cross-entropy, the same feedback loop keeps sculpting better features.
+
+Feature extraction has evolved from painstaking manual craft to self-taught artistry. The result: models that not only work better but also adapt faster to the next big dataset we throw at them.
+
+### Most Common Architectures
+
+Once you’ve coaxed useful features out of the data, you still need a **scaffold** to process them. Enter the architecture—the wiring diagram that decides _how_ information flows, mixes, and re-emerges as predictions. Some of the most popular architecture are:
+
+-   **Recurrent Neural Networks (RNNs)**
+    Text, sensor logs, and other time-series streams need context from previous steps. RNNs recycle a hidden state forward in time, giving them short-term memory. Variants like LSTM and GRU fight “forgetfulness,” though they’re mostly outpaced by transformers.
+
+-   **Transformer + Attention**
+    The engine behind **large language models** and, increasingly, vision and multimodal systems. Self-attention lets every token (or patch) look at every other, capturing long-range dependencies without the memory glitches that plagued old RNNs. These are often able to work with **natural language**, i.e., the language of humans.
+
+-   **Convolutional Neural Networks (CNNs)**
+    A convolutional layer slides a small set of neurons formed like a tile over an image (or audio spectrogram) the way you’d move a magnifying glass across a map. Because those neurons are _shared_ across positions, CNNs recognize a cat whether it’s in the corner or the center—perfect for vision, speech, and video tasks.
+
+-   **Graph Neural Networks (GNNs)**
+    For data that’s more “who’s connected to whom” than pixels on a grid—think knowledge graphs, molecules, or social webs. Relation-aware variants ensure “friend-of” isn’t mistaken for “capital-of.”
+
+-   **Point-Cloud Networks: 3-D dots, no pixels required.**
+    Lidar scanners spit out unordered XYZ points. PointNet, PointNet++ and their descendants process these clouds directly, making them the eyes of **autonomous driving** (a car driving the computer), robotics, and AR/VR mapping systems.
+
+Each neural network architecture can be seen as a stack of layers of neurons. Wider and more layers give you richer representation—but also bigger **computational cost**. Engineers constantly have to think about FLOPs (floating-point operations), memory footprint, and inference latency the way architects have to think about budget, space, and structural load.
+
+Today, most of these architectures (especially transformer models) debut as massive **foundation models**—giant **pre-trained** networks that have already learned broad skills from mountains of public data. With **transfer learning**, you simply nudge that big model on your small, task-specific dataset instead of starting from scratch. And when privacy keeps data on devices, **federated learning** lets each phone or hospital train its own copy locally, share only tiny weight updates, and still help build a smarter global model.
+
+### Generative Tasks
+
+-   **Generative models** do the opposite of classifiers: instead of labeling what _is_, they imagine what _could be_. Feed one enough cat photos and it will invent convincing new felines from thin air.
+-   **Generative Adversarial Networks (GANs)** sharpen that skill by pitting two nets against each other—the “artist” tries to fake data, the “critic” tries to spot fakes. This back-and-forth forms the classic **adversarial network** setup and has given us photoreal faces, deep-fake videos, and endless meme templates.
+-   **Diffusion models** take a different path: they add noise to real data until it’s pure static, then learn to run the movie in reverse. Step-by-step denoising yields images and videos so crisp they now headline most generative benchmarks.
+-   The dark twin of all this creation is the **adversarial attack**—tiny, often invisible tweaks that make a stop-sign look like a speed-limit sign to an autonomous car. The same insights that teach a model to dream can also teach it to hallucinate in dangerous ways.
+
+---
+
+## Closing thoughts
+
+I’m posting these reflections a little later than planned—2025 trends are already knocking—but curiosity doesn’t run on a calendar. If today’s dive sparked even one new question in your mind, mission accomplished. Thanks for tagging along, and stay tuned: the next surge of breakthroughs is already warming up in the arXiv queue, and I’ll be back to unpack it with you. Until then, keep tinkering and keep asking “what if?”—that’s how the future gets built.
