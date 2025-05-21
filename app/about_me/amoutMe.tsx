@@ -151,7 +151,7 @@ export function AboutMe(): React.ReactElement {
                                 <p>
                                     I have started an exciting challenge of
                                     writing a&nbsp;
-                                    <Link href="/writing" passHref>
+                                    <Link href="/ml_book" passHref>
                                         machine learning book
                                     </Link>
                                     &nbsp;focused on how machine learning is
