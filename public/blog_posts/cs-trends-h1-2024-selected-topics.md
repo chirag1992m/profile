@@ -3,7 +3,7 @@ slug: 'cs-trends-h1-2024-selected-topics'
 title: 'CS Trends H1 2024: Selected Topics'
 subtitle: 'Opinion piece on selected topics'
 category: 'CS Yearly Trends'
-date: '2025-03-03'
+date: '2025-05-22'
 cover_image: '/blog_images/cs-trends-h1-2024/wordcloud.png'
 cover_image_prompt: 'Wordcloud of most used words in AI research papers'
 ---
@@ -51,7 +51,7 @@ When trying to build Artificial Intelligence (AI), there are generally two ways 
 1. **Hand-coded Rules**: Write down every single rule or step the machine should follow. For example, you could program a chess computer by teaching it every valid chess move and telling it exactly what to do in each situation. This is time-consuming, but precise. It often relies on logic and principles which we can
 2. **Learning from Data**: Provide the machine with lots of examples and let it find patterns on its own, without explicitly programming every rule.
 
-The second approach is known as _Machine Learning (ML)_. In ML, a computer uses a _learning algorithm_ to discover patterns in large amounts of data—rather than relying on rules that programmers have written by hand. This ability to “learn” from data makes ML the most popular way to build modern AI systems. The output of a learning algorithm is a _trained machine learning model_, often referred to simply as an **ML model**.
+The second approach is known as _Machine Learning (ML)_. In ML, a computer uses a _learning algorithm_ to discover patterns in large amounts of data—rather than relying on rules that programmers have written by hand. This ability to “learn” from data makes ML the most popular way to build modern AI systems. The output of a learning algorithm is a _trained machine learning model_, often referred to as an **ML model**.
 
 ### Types of Learning
 
@@ -115,7 +115,7 @@ Before any model can dazzle us with predictions, it first has to **see** the dat
    Suppose you have two different photos of the same dog. A contrastive learner pulls those images _together_ in its **latent space** while pushing random cats, cars, and cupcakes _apart_. With no labels required, the network learns a rich encoding that often rivals fully supervised training. Techniques like SimCLR, MoCo, and CLIP ride on this idea.
 
 4. **Why “latent space” matters.**
-   Think of latent space as a high-dimensional map where similar things **cluster** naturally—dog images here, jazz riffs there, fraudulent transactions way over there. A well-shaped latent space makes downstream tasks (classification, retrieval, even generation) dramatically easier.
+   Think of latent space as a high-dimensional map where similar things **cluster** naturally—dog images here, jazz riffs there, fraudulent transactions way over there. A well-shaped latent space makes downstream tasks (classification, retrieval, even generation) dramatically easier and hopefully reducing the dimensions to allow for information compression.
 
 5. **The gritty details: gradient descent & loss functions.**
    All this learning happens because the network repeatedly guesses, measures error via a **loss function**, and nudges its weights using **gradient descent**. Whether you’re minimizing contrastive loss or cross-entropy, the same feedback loop keeps sculpting better features.
@@ -130,7 +130,7 @@ Once you’ve coaxed useful features out of the data, you still need a **scaffol
     Text, sensor logs, and other time-series streams need context from previous steps. RNNs recycle a hidden state forward in time, giving them short-term memory. Variants like LSTM and GRU fight “forgetfulness,” though they’re mostly outpaced by transformers.
 
 -   **Transformer + Attention**
-    The engine behind **large language models** and, increasingly, vision and multimodal systems. Self-attention lets every token (or patch) look at every other, capturing long-range dependencies without the memory glitches that plagued old RNNs. These are often able to work with **natural language**, i.e., the language of humans.
+    The engine behind **large language models** and, increasingly, vision and multimodal systems. Self-attention lets every token (or patch or features) look at every other (at least theoretically as many variants reduce computational burden by caching, MOE), capturing long-range dependencies without the memory glitches that plagued old RNNs. These are often able to work with **natural language**, i.e., the language of humans.
 
 -   **Convolutional Neural Networks (CNNs)**
     A convolutional layer slides a small set of neurons formed like a tile over an image (or audio spectrogram) the way you’d move a magnifying glass across a map. Because those neurons are _shared_ across positions, CNNs recognize a cat whether it’s in the corner or the center—perfect for vision, speech, and video tasks.
@@ -141,7 +141,7 @@ Once you’ve coaxed useful features out of the data, you still need a **scaffol
 -   **Point-Cloud Networks: 3-D dots, no pixels required.**
     Lidar scanners spit out unordered XYZ points. PointNet, PointNet++ and their descendants process these clouds directly, making them the eyes of **autonomous driving** (a car driving the computer), robotics, and AR/VR mapping systems.
 
-Each neural network architecture can be seen as a stack of layers of neurons. Wider and more layers give you richer representation—but also bigger **computational cost**. Engineers constantly have to think about FLOPs (floating-point operations), memory footprint, and inference latency the way architects have to think about budget, space, and structural load.
+Each neural network architecture can be seen as a stack of layers of neurons. Wider and more layers of these lego blocks of architectures give you richer representation—but also bigger **computational cost**. Engineers constantly have to think about FLOPs (floating-point operations), memory footprint, and inference latency the way architects have to think about budget, space, and structural load.
 
 Today, most of these architectures (especially transformer models) debut as massive **foundation models**—giant **pre-trained** networks that have already learned broad skills from mountains of public data. With **transfer learning**, you simply nudge that big model on your small, task-specific dataset instead of starting from scratch. And when privacy keeps data on devices, **federated learning** lets each phone or hospital train its own copy locally, share only tiny weight updates, and still help build a smarter global model.
 
