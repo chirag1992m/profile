@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import * as React from 'react'
 
-export interface ListYtemProps {
+export interface ListItemProps {
     title: string
     active: boolean
     href: string
@@ -21,19 +21,19 @@ export function ListItem({
     active,
     leadingAccessory,
     onClick,
-}: ListYtemProps): React.ReactElement {
+}: ListItemProps): React.ReactElement {
     return (
         <Link
             href={href}
             as={as}
-            onClick={onClick && onClick}
+            onClick={onClick}
             className={`flex space-x-3 border-b border-gray-100 py-3 px-3.5 text-sm dark:border-gray-900 lg:rounded-lg lg:border-none lg:py-2 ${
                 active
                     ? 'bg-black dark:bg-gray-700'
                     : 'sm:hover:bg-gray-200 sm:dark:hover:bg-gray-800'
             }`}
         >
-            {leadingAccessory && <>{leadingAccessory}</>}
+            {leadingAccessory != null && <>{leadingAccessory}</>}
             <div className="flex flex-col justify-center space-y-1">
                 <div
                     className={`font-medium line-clamp-3 ${
@@ -44,7 +44,7 @@ export function ListItem({
                 >
                     {title}
                 </div>
-                {description && (
+                {description != null && (
                     <div
                         className={`line-clamp-2 ${
                             active
@@ -55,7 +55,7 @@ export function ListItem({
                         {description}
                     </div>
                 )}
-                {byline && (
+                {byline != null && (
                     <div
                         className={`line-clamp-1 ${
                             active

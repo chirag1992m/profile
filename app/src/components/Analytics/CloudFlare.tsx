@@ -1,5 +1,5 @@
 // Documentation: https://developers.cloudflare.com/analytics/web-analytics/
-const CloudFlareAnalytics = () => {
+const CloudFlareAnalytics = (): JSX.Element => {
     return (
         <div>
             {/* Default CloudFlare code for Digital Madness https://digital-madness.in/ */}

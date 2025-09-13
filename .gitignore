@@ -131,3 +131,6 @@ dist
 
 # IDE related
 .vscode
+
+# OS files
+.DS_Store

@@ -2,7 +2,7 @@
 slug: 'ignore-example-blog-post'
 title: 'Example Blogpost'
 subtitle: 'Example blog, showing markdown powers'
-category: 'Ignore'
+category: 'Ignore (only dev)'
 date: '2024-05-15'
 cover_image: '/blog_images/ignore-example-blog-post/plant_lifecycle.webp'
 cover_image_prompt: 'Some prompt for the cover image'
@@ -29,6 +29,19 @@ Hello this is my first blog after a long time on XGBoost.
 Here is an example of a plugin in action
 ([`remark-toc`](https://github.com/remarkjs/remark-toc)).
 **This section is replaced by an actual table of contents**.
+
+### Collapsible Blocks
+
+You can create collapsible with the `details` and `summary` HTML5 tags.
+
+<details>
+<summary>Collapsible Block Heading</summary>
+
+#### Collapsible Block Hidden Heading
+
+Content here
+
+</details>
 
 ## Syntax highlighting
 
@@ -141,6 +154,18 @@ L = \frac{1}{2} \rho v^2 S C_L
 ```plotly
 /blog_images/ignore-example-blog-post/plot_1.json
 ```
+
+## React Diagrams by PlantUML
+
+Create your diagram using the [`PlantUML jar`](https://plantuml.com/download) and use that to generate the SVG representation of the diagram and embed as an image. A jar is already downloaded for you in the root folder of this repo.
+
+Command to generate the SVG image:
+
+```bash
+java -jar plantuml.jar -tsvg /path/to/text/file/containing/plantUML_schema.puml
+```
+
+![PlantUML SVG](/blog_images/ignore-example-blog-post/plantuml_example.svg)
 
 ---
 

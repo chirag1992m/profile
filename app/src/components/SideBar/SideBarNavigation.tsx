@@ -32,7 +32,7 @@ export function SideBarNavigation({
             {navigationSections.map((section, i) => {
                 return (
                     <ul key={`section_${i}`} className="space-y-1">
-                        {section.label && (
+                        {section.label !== '' && (
                             <h4
                                 key={i}
                                 className="px-2 pt-5 pb-2 text-xs font-semibold text-gray-1000 text-opacity-40 dark:text-white"

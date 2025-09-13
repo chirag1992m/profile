@@ -1,5 +1,8 @@
+import Image from 'next/image'
+import { type ReactElement } from 'react'
+
 // To look at analytics, go to website: https://statcounter.com/p13010447/?guest=1
-const StatCounter = () => {
+const StatCounter = (): ReactElement => {
     return (
         <div>
             {/* Default Statcounter code for Digital Madness https://digital-madness.in/ */}
@@ -26,11 +29,13 @@ const StatCounter = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img
+                        <Image
                             className="statcounter"
                             src="https://c.statcounter.com/13010447/0/1b08eb98/1/"
                             alt="Web Analytics"
                             referrerPolicy="no-referrer-when-downgrade"
+                            width={88} // <--- Required
+                            height={31} // <--- Required
                         />
                     </a>
                 </div>

@@ -27,7 +27,7 @@ export const WritingList = ({
             <TitleBar scrollContainerRef={scrollContainerRef} title={title} />
 
             <div className="lg:space-y-1 lg:p-2">
-                {categorizedPosts &&
+                {categorizedPosts != null &&
                     Object.entries(categorizedPosts).map(
                         ([category, posts]) => {
                             return (
@@ -42,9 +42,11 @@ export const WritingList = ({
                                         {category}
                                     </h4>
                                     {posts.map((post, i) => {
-                                        const active = currentPathname.includes(
-                                            post.slug
-                                        )
+                                        const activeSlug = currentPathname
+                                            .replace(/\/$/, '')
+                                            .split('/')
+                                            .pop()
+                                        const active = activeSlug === post.slug
 
                                         return (
                                             <WritingListItem

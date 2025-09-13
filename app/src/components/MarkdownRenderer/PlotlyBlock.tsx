@@ -41,7 +41,7 @@ const PlotlyBlock: React.FC<PlotlyBlockProps> = ({ src }) => {
         void fetchPlotData()
     }, [src])
 
-    if (!plotData) {
+    if (plotData == null) {
         return <div>Loading...</div>
     }
 

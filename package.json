@@ -7,7 +7,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint --fix",
-        "format:all": "prettier --write ."
+        "format:all": "prettier --write --list-different ."
     },
     "dependencies": {
         "next": "^14.1.4",
@@ -22,6 +22,7 @@
         "react-visibility-sensor": "^5.1.1",
         "rehype-autolink-headings": "^7.1.0",
         "rehype-katex": "^7.0.0",
+        "rehype-raw": "^7.0.0",
         "rehype-sanitize": "^6.0.0",
         "rehype-slug": "^6.0.0",
         "remark-gfm": "^4.0.0",
