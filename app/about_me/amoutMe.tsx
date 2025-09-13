@@ -152,11 +152,7 @@ export function AboutMe(): React.ReactElement {
                                     I have started an exciting challenge of
                                     writing a&nbsp;
                                     <Link href="/ml_book" passHref>
-<<<<<<< HEAD
-                                        book
-=======
                                         machine learning book
->>>>>>> main
                                     </Link>
                                     &nbsp;detailing how various industries have
                                     adopted machine learning transforming

@@ -1,5 +1,5 @@
 ---
-slug: 'appendix-linear_algebra-primer'
+slug: 'ignore-appendix-linear_algebra-primer'
 index: 1
 chapter: 'Appendix'
 title: 'Linear Algebra'
