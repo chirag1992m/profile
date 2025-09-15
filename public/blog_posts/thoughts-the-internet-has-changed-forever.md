@@ -4,7 +4,7 @@ title: 'The internet has changed forever'
 subtitle: 'The world with AI'
 category: 'Thoughts'
 date: '2025-05-25'
-cover_image: '/blog_images/thoughts-the-internet-has-changed-forever/wordcloud.png'
+cover_image: '/blog_images/thoughts-the-internet-has-changed-forever/brain_transition.png'
 cover_image_prompt: 'Wordcloud of most used words in AI research papers'
 ai_assisted: false
 ---
