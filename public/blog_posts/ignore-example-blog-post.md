@@ -6,6 +6,7 @@ category: 'Ignore (only dev)'
 date: '2024-05-15'
 cover_image: '/blog_images/ignore-example-blog-post/plant_lifecycle.webp'
 cover_image_prompt: 'Some prompt for the cover image'
+ai_assisted: false
 ---
 
 Hello this is my first blog after a long time on XGBoost.

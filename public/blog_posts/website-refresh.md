@@ -6,6 +6,7 @@ category: 'Thoughts'
 date: '2024-05-15'
 cover_image: '/blog_images/website-refresh/plant_lifecycle.webp'
 cover_image_prompt: 'A high-definition depiction of a natural lifecycle in a forest setting, suitable for a blog cover image, with a wide aspect ratio. The image illustrates the journey from seed to mature tree, featuring a progression from left to right: a small seed sprouting in rich, dark soil, a young sapling with tender leaves, a tree in full bloom with colorful flowers, and finally, an ancient tree with a thick trunk and sprawling branches, covered in moss and surrounded by fallen leaves. The lush, green forest and soft sunlight filtering through the leaves create a tranquil and detailed atmosphere.'
+ai_assisted: true
 ---
 
 It's been more than 11 years since I last wrote a [blogpost](https://digital-madness.in/blog/2013/fast-io-in-c/). During my college days, I loved taking complex concepts and presenting them in an easy-to-digest format. I used to teach computer subjects to my friends just the night before their exam. Despite finding it easy to explain concepts on the fly, I've always struggled with putting my thoughts to written words.

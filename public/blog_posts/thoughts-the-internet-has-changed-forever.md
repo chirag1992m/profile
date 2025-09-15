@@ -6,6 +6,7 @@ category: 'Thoughts'
 date: '2025-05-25'
 cover_image: '/blog_images/thoughts-the-internet-has-changed-forever/wordcloud.png'
 cover_image_prompt: 'Wordcloud of most used words in AI research papers'
+ai_assisted: false
 ---
 
 As of this writing, the latest and the greatest models from big-technology companies costs in the range of approximately $200 per month per user which are still rate limited. Not that, I want you to let all your thinking be done by the tech you use. How many do you think have the same capabilities of navigation without google maps? Do you ever try to remember phone numbers of even your loved ones? But, humans have always built tools.
