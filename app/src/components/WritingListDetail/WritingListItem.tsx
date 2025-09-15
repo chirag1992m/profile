@@ -1,5 +1,5 @@
-import * as React from 'react'
 import Image from 'next/image'
+import * as React from 'react'
 
 import { type postMetadata } from '../../../writing/posts'
 import { ListItem } from '../ListDetail/ListItem'
