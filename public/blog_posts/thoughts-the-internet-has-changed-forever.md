@@ -9,7 +9,13 @@ cover_image_prompt: 'Three brains: Brain without AI used, Brain with AI in conju
 ai_assisted: false
 ---
 
-As of this writing, the latest and the greatest models from big-technology companies costs in the range of approximately $200 per month per user which are still rate limited. Not that, I want you to let all your thinking be done by the tech you use. How many do you think have the same capabilities of navigation without google maps? Do you ever try to remember phone numbers of even your loved ones? But, humans have always built tools.
+As of this writing, the latest and the greatest models from big-technology companies costs in the range of approximately $20 per month per user which are still rate limited. How many people do you think can afford that? The simplest of the best AI model devices cost more than $350 and then there's application fees. Each "good" AI application you want to use might have its own cost, might bring it's total cost to a multiple of it. So, maybe $asd$
+
+Not that, I want you to let all your thinking be done by the tech you use. How many do you think have the same capabilities of navigation without google maps? Do you ever try to remember phone numbers of even your loved ones? But, humans have always built tools to do our bidding, and this comes to my next point. It's a tool. It's a magical tool, that even companies logo all look like that they've created a magical wand.
+
+## AI as a tool
+
+The cost keeps coming down for access to these technology in some form or the other. This is a magical tool and hopefully power of intelligence is in the hands of everyone so that they can make better decisions, can help with whatever they're doing and certainly uplift society to the next level. _"Intelligence on demand"_, it's the evolution of computing and integration of computing with human action and perception. (I think having globalisation is the only way to improve upon this aspect, although the world seem to be moving back in the opposite direction. IP hiding, racing against each other. World is not a zero-sum game and we shouldn't treat it like that.)
 
 At the same time, if you have a GPU or a decent laptop can run these models locally, just go search for HuggingFace. Albeit, these models WILL run with reduced thinking. <It's not just the model that matters, but the scaffolding machinery involved> to run them efficiently, with rather accurate results combined with the immense machinery of knowledge improvement of "BigTech" models who have the ability to gather data, throw as much compute needed to solve a problem and generally on average a highly talented team of researchers/engineers who can implemented the latest and greatest algorithms on a rather high speed and the UI aspect of it.
 
@@ -17,7 +23,9 @@ At the same time, if you have a GPU or a decent laptop can run these models loca
 
 google took a lot more time to introduce the AI-mode. It would kill it's own business. Now it's at the forefront because it can't lose this race to anyone else. They've also figured out, being a platform is better and they've figured out all the different aspects of "AI building", which mind you NO company has in one place, even NVidia. All the everyday applications are dominated by Google: Search, Maps, Browser.
 
-The cost keeps coming down for access to these technology in some form or the other. This is a magical tool and hopefully power of intelligence is in the hands of everyone so that they can make better decisions, can help with whatever they're doing and certainly uplift society to the next level. *"Intelligence on demand"*, it's the evolution of computing and integration of computing with human action and perception. (I think having globalisation is the only way to improve upon this aspect, although the world seem to be moving back in the opposite direction. IP hiding, racing against each other. World is not a zero-sum game and we shouldn't treat it like that.)
+## AIs dark-side!
+
+## Is AGI real or that mythical land of abundance?
 
 Although, I fear AI slop. I do Vibe-coading all the time, and I can see how sloppy sometimes things are. If software was this after made by a team of engineers, it's even more fragile. No actual GDP growth.
 <MIT report on actuak productivity impact of AI>
@@ -34,4 +42,4 @@ Some predictions for the next few years based on my observation:
 3. AI will comprise more of "Small Agents" instead of large agents everywhere. Although, as internet itself gets better, it might be possible that you can stream intelligence almost anywhere with blazing fast speeds that you don't need small agents at all.
 4. No one will visit your website. When the trust on AI builds up, people will stop looking at the citation, and directly ingest AIs output without question. https://kumrayush.medium.com/really-simple-licensing-rsl-a-new-standard-protecting-writers-from-ai-companies-a9f5905f5c72 
 5. Commerce with AI will be solved, causing a lot more people to flock to AI as it will start to redirect the flow of money from peoples pocket.
-6. We won't achieve AGI, but we will continue to solve harder and harder problems with the help of AI. 
+6. We won't achieve AGI, but we will continue to solve harder and harder problems with the help of AI.
