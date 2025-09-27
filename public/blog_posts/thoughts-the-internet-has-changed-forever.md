@@ -9,7 +9,11 @@ cover_image_prompt: 'Three brains: Brain without AI used, Brain with AI in conju
 ai_assisted: false
 ---
 
-As of this writing, the latest and the greatest models from big-technology companies costs in the range of approximately $20 per month per user which are still rate limited. How many people do you think can afford that? The simplest of the best AI model devices cost more than $350 and then there's application fees. Each "good" AI application you want to use might have its own cost, might bring it's total cost to a multiple of it. So, maybe $asd$
+As of this writing, the latest and the greatest models from big-technology companies costs in the range of approximately \$20 per month per user which are still rate limited. How many people do you think can afford that? The simplest of the best AI model devices cost more than \$350 and then there's application fees. Each "good" AI application (for eg: cursorAI) you want to use might have its own cost, might bring it's total cost to a multiple of it. 
+
+We can assume, the AI cost usage for an application heavy user to be $B + nA$ where, $B$ is the cost of base LLM you generally want to use, $n$ the cost of applications you use and $A$ the average cost of each AI application you purchase. Assuming, a base LLM cost of \$20 and \$20 for each application as well; 1-2 (i.e., 1.5) for a light user, 2-3 for a medium user (i.e., 2.5) and 5-10 (i.e., 7.5); the cost of using AI in your daily "productivity" life would range from \$50 to \$170 per month. Also, once you become a heavy user, your base LLM cost can rise much above \$200 😱
+
+<iframe src="https://ourworldindata.org/grapher/world-bank-income-groups?time=2024&tab=map" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 
 Not that, I want you to let all your thinking be done by the tech you use. How many do you think have the same capabilities of navigation without google maps? Do you ever try to remember phone numbers of even your loved ones? But, humans have always built tools to do our bidding, and this comes to my next point. It's a tool. It's a magical tool, that even companies logo all look like that they've created a magical wand.
 
@@ -37,9 +41,10 @@ For the same, I'm creating this small icon to differentiate between different ar
 Commerce and Ads on AI.
 
 Some predictions for the next few years based on my observation:
+
 1. AI would be everywhere, much much more than it is today. It will bleed into Agentic AI, that is, AI working autonomously without any human intervention. It will impact almost all industries.
 2. No, you're not going to lose your job to AI anytime soon. But, you will lose your job to someone who knows more about AI than you. How to use it. More importantly, where it isn't good.
 3. AI will comprise more of "Small Agents" instead of large agents everywhere. Although, as internet itself gets better, it might be possible that you can stream intelligence almost anywhere with blazing fast speeds that you don't need small agents at all.
-4. No one will visit your website. When the trust on AI builds up, people will stop looking at the citation, and directly ingest AIs output without question. https://kumrayush.medium.com/really-simple-licensing-rsl-a-new-standard-protecting-writers-from-ai-companies-a9f5905f5c72 
+4. No one will visit your website. When the trust on AI builds up, people will stop looking at the citation, and directly ingest AIs output without question. https://kumrayush.medium.com/really-simple-licensing-rsl-a-new-standard-protecting-writers-from-ai-companies-a9f5905f5c72
 5. Commerce with AI will be solved, causing a lot more people to flock to AI as it will start to redirect the flow of money from peoples pocket.
 6. We won't achieve AGI, but we will continue to solve harder and harder problems with the help of AI.

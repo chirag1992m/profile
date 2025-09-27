@@ -14,7 +14,11 @@ import { CodeBlock } from './CodeBlock'
 
 const customSanitizeSchema = {
     ...defaultSchema,
-    tagNames: [...(defaultSchema.tagNames ?? []), 'details', 'summary'],
+    tagNames: [...(defaultSchema.tagNames ?? []), 'details', 'summary', 'iframe'],
+    attributes: {
+        ...defaultSchema.attributes,
+        iframe: ['src', 'loading', 'style', 'allow', 'width', 'height', 'frameborder', 'title', 'sandbox'],
+    },
 }
 
 interface LinkRendererProps
