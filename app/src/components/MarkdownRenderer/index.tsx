@@ -14,10 +14,25 @@ import { CodeBlock } from './CodeBlock'
 
 const customSanitizeSchema = {
     ...defaultSchema,
-    tagNames: [...(defaultSchema.tagNames ?? []), 'details', 'summary', 'iframe'],
+    tagNames: [
+        ...(defaultSchema.tagNames ?? []),
+        'details',
+        'summary',
+        'iframe',
+    ],
     attributes: {
         ...defaultSchema.attributes,
-        iframe: ['src', 'loading', 'style', 'allow', 'width', 'height', 'frameborder', 'title', 'sandbox'],
+        iframe: [
+            'src',
+            'loading',
+            'style',
+            'allow',
+            'width',
+            'height',
+            'frameborder',
+            'title',
+            'sandbox',
+        ],
     },
 }
 

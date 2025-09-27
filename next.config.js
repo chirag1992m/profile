@@ -9,8 +9,6 @@ const nextConfig = {
     ...(process.env.NODE_ENV === 'development' && {
         // Enable fast refresh
         reactStrictMode: true,
-        // Ensure hot reload works properly
-        swcMinify: false,
     }),
 
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
@@ -19,8 +17,6 @@ const nextConfig = {
     // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
     skipTrailingSlashRedirect: true,
 
-    // Optional: Change the output directory `out` -> `dist`
-    // distDir: 'dist',
     images: {
         unoptimized: true,
         // Add the external domains your images come from
