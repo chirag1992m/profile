@@ -65,6 +65,8 @@ Commerce and Ads on AI.
 
 Some predictions for the next few years based on my observation:
 
+https://ai-2027.com/research
+
 1. AI would be everywhere, much much more than it is today. It will bleed into <dict word="agentic">Agentic AI</dict>, that is, AI working autonomously without any human intervention. It will impact almost all industries.
 2. No, you're not going to lose your job to AI anytime soon. But, you will lose your job to someone who knows more about AI than you. How to use it. More importantly, where it isn't good.
 3. AI will comprise more of "Small Agents" instead of large agents everywhere. Although, as internet itself gets better, it might be possible that you can stream intelligence almost anywhere with blazing fast speeds that you don't need small agents at all.
