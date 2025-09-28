@@ -42,9 +42,17 @@ Looking at the [income groups of the world in the below infographic from "Our wo
 
 <iframe src="https://ourworldindata.org/grapher/world-bank-income-groups?time=2024&tab=map" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 
+AI Sovereneighty
+
 ## AIs dark-side!
 
+* Errors, compounding errors
+* Energy requirements
+* Increased inequality
+
 ## Is <dict word="AGI">AGI</dict> real or that mythical land of abundance?
+
+Godels incompleteness theorem
 
 Although, I fear AI <dict word="slop">slop</dict>. I do Vibe-coading all the time, and I can see how sloppy sometimes things are. If software was this after made by a team of engineers, it's even more fragile. No actual GDP growth.
 <MIT report on actuak productivity impact of AI>
