@@ -10,8 +10,8 @@ import remarkGfm from 'remark-gfm'
 import linkifyRegex from 'remark-linkify-regex'
 import remarkMath from 'remark-math'
 
-import { CodeBlock } from './CodeBlock'
 import { DictionaryWord } from '../Dictionary'
+import { CodeBlock } from './CodeBlock'
 
 const customSanitizeSchema = {
     ...defaultSchema,
@@ -74,13 +74,19 @@ function LinkRenderer({
     }
 }
 
-function getComponentsForVariant() {
+function getComponentsForVariant(): Record<string, any> {
     return {
         a: LinkRenderer,
 
-        pre({ node, inline, className, children, ...props }) {
-            const language = /language-(\w+)/.exec(className || '')?.[1]
-            return !inline && language ? (
+        pre({
+            node,
+            inline,
+            className,
+            children,
+            ...props
+        }: any): React.ReactElement {
+            const language = /language-(\w+)/.exec(className ?? '')?.[1]
+            return !inline && language !== undefined ? (
                 <CodeBlock
                     text={String(children).replace(/\n$/, '')}
                     language={language}
@@ -90,9 +96,15 @@ function getComponentsForVariant() {
                 <>{children}</>
             )
         },
-        code({ node, inline, className, children, ...props }) {
-            const language = /language-(\w+)/.exec(className || '')?.[1]
-            return !inline && language ? (
+        code({
+            node,
+            inline,
+            className,
+            children,
+            ...props
+        }: any): React.ReactElement {
+            const language = /language-(\w+)/.exec(className ?? '')?.[1]
+            return !inline && language !== undefined ? (
                 <CodeBlock
                     text={String(children).replace(/\n$/, '')}
                     language={language}
@@ -104,14 +116,18 @@ function getComponentsForVariant() {
                 </code>
             )
         },
-        dict({ node, ...props }: any) {
-            const word = props.word || props.children
-            return <DictionaryWord word={word}>{props.children}</DictionaryWord>
+        dict({ node, ...props }: any): React.ReactElement {
+            const word = props.word ?? props.children
+            return (
+                <DictionaryWord word={String(word)}>
+                    {props.children}
+                </DictionaryWord>
+            )
         },
     }
 }
 
-export function MarkdownRenderer(props: any) {
+export function MarkdownRenderer(props: any): React.ReactElement {
     const { children, ...rest } = props
 
     const components = getComponentsForVariant()

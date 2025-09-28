@@ -235,11 +235,11 @@
     .dictionary-tooltip {
         @apply bg-gray-800 border-gray-700;
     }
-    
+
     .dictionary-tooltip::before {
         border-bottom-color: #1f2937;
     }
-    
+
     .dictionary-tooltip::after {
         border-bottom-color: #374151;
     }

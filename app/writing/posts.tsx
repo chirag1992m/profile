@@ -54,7 +54,7 @@ export const getCategorizedPosts = (): Record<string, postMetadata[]> => {
     const categories: Record<string, postMetadata[]> = postsMetadata.reduce<
         Record<string, postMetadata[]>
     >((x, y) => {
-        ;(x[y.category] = x[y.category] || []).push(y)
+        ;(x[y.category] = x[y.category] ?? []).push(y)
         return x
     }, {})
 

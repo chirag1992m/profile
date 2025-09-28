@@ -150,6 +150,18 @@ Or like this:
 L = \frac{1}{2} \rho v^2 S C_L
 ```
 
+## Dictionary Words
+
+You can create interactive dictionary words that show definitions on hover. Here are some examples:
+
+-   <dict word="transformer">transformer</dict> - A deep learning model architecture
+-   <dict word="AGI">AGI</dict> - Artificial General Intelligence
+-   <dict word="LLM">LLM</dict> - Large Language Model
+-   <dict word="slop">slop</dict> - Low-quality AI-generated content
+-   <dict word="agentic">agentic</dict> - AI that acts autonomously
+
+Hover over any of these words to see their full definitions!
+
 ## React Graphs by Plotly
 
 ```plotly
