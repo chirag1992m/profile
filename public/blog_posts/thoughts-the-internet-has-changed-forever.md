@@ -6,22 +6,17 @@ category: 'Thoughts'
 date: '2025-05-25'
 cover_image: '/blog_images/thoughts-the-internet-has-changed-forever/brain_transition.png'
 cover_image_prompt: 'Three brains: Brain without AI used, Brain with AI in conjunction, complete AI brain'
-ai_assisted: false
+ai_assisted: true
 ---
 
-Hello I'm hereBalle balle, it worked No maybe it didn't realy :/
-Well did it work this time?
-Well no, it still didn't work!
+What's the first thing you do when you go to the internet? If you're like me, you'll go to Google.com. Each browser comes with a default search engine, and for most of us, it's Google. That gateway earlier had two main buttons, `Google Search` and `I'm Feeling Lucky`. `I'm feeling lucky` simply opened the first link that google ranked the highest for the query.
 
-## AI Affordability
+In 2022 chatGPT was released by OpenAI, and it was a game changer. It was able to answer questions better than any other search engine although didn't have the ability to be up-to-date with the latest information. It was able to write code, and even write essays. As the traffic on chatGPT grew, Google had to react. After many iterations, they introduced `AI Mode` in 2025. `I'm feeling lucky` now has been replaced with `AI Mode`. And if you're in the US, even with the blue links, the top thing you see is the AI modes answer to the query. 
+![Google before 2025 and after 2025](/blog_images/thoughts-the-internet-has-changed-forever/google_transition.png)
 
-As of this writing, the latest and the greatest models from big-technology companies costs in the range of approximately \$20 per month per user which are still rate limited. How many people do you think can afford that? The lower-end of the best AI model devices cost more than \$350 and then there's application fees. Each "good" AI application (for eg: cursorAI) you want to use might have its own cost, might bring it's total cost to a multiple of it.
+There's been many tools by Google on the way to this mode, like the LamDa, Palm, gemini studio, notebookLM, etc. to get to a general purpose AI mode. And just like that, the internet has changed forever.
 
-We can assume, the AI cost usage for an application heavy user to be $B + nA$ where, $B$ is the cost of base LLM you generally want to use, $n$ the cost of applications you use and $A$ the average cost of each AI application you purchase. Assuming, a base LLM cost of \$20 and \$20 for each application as well; 1-2 (i.e., 1.5) for a light user, 2-3 for a medium user (i.e., 2.5) and 5-10 (i.e., 7.5); the cost of using AI in your daily "productivity" life would range from \$50 to \$170 per month. Also, once you become a heavy user, your base LLM cost can rise much above \$200 totaling the cost upwards of \$400-\$500 per month. To put perspective to this number, that currently is like buying an iPhone every other month. 😱
-
-Looking at the [income groups of the world in the below infographic from "Our world in Data"](https://ourworldindata.org/grapher/world-bank-income-groups?time=2024), shows that most of the population of the world can't afford these tools if they also want to afford basic housing, utilities, food, etc. This brings back to the need of small LLMs which run on the edge and this affordability gap continue to reduce. The cost keeps coming down for access to these technology in some form or the other. This is a magical tool and hopefully power of intelligence is in the hands of everyone so that they can make better decisions, can help with whatever they're doing and certainly uplift society to the next level. _"Intelligence on demand"_, it's the evolution of computing and integration of computing with human action and perception. I think having globalisation is the only way to improve upon this aspect, although the world seem to be moving back in the opposite direction. IP hiding, racing against each other. Living is not a zero-sum game and we shouldn't treat it like that.
-
-<iframe src="https://ourworldindata.org/grapher/world-bank-income-groups?time=2024&tab=map" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+In this blog post, I'll be discussing the what I think AI is, the affordability of AI, some of its dark-sides, and finally some of my own "predictions" for the future of AI and the internet.
 
 ## AI as a tool
 
@@ -32,6 +27,16 @@ At the same time, if you have a GPU or a decent laptop can run these models loca
 <insert an image of price comparison between different AI models. compare on price, capability (image, text, math, coding, etc.)>
 
 google took a lot more time to introduce the AI-mode. It would kill it's own business. Now it's at the forefront because it can't lose this race to anyone else. They've also figured out, being a platform is better and they've figured out all the different aspects of "AI building", which mind you NO company has in one place, even NVidia. All the everyday applications are dominated by Google: Search, Maps, Browser.
+
+## AI Affordability
+
+As of this writing, the latest and the greatest models from big-technology companies costs in the range of approximately \$20 per month per user which are still rate limited. How many people do you think can afford that? The lower-end of the best AI model devices cost more than \$350 and then there's application fees. Each "good" AI application (for eg: cursorAI) you want to use might have its own cost, might bring it's total cost to a multiple of it.
+
+We can assume, the AI cost usage for an application heavy user to be $B + nA$ where, $B$ is the cost of base LLM you generally want to use, $n$ the cost of applications you use and $A$ the average cost of each AI application you purchase. Assuming, a base LLM cost of \$20 and \$20 for each application as well; 1-2 (i.e., 1.5) for a light user, 2-3 for a medium user (i.e., 2.5) and 5-10 (i.e., 7.5); the cost of using AI in your daily "productivity" life would range from \$50 to \$170 per month. Also, once you become a heavy user, your base LLM cost can rise much above \$200 totaling the cost upwards of \$400-\$500 per month. To put perspective to this number, that currently is like buying an iPhone every other month. 😱
+
+Looking at the [income groups of the world in the below infographic from "Our world in Data"](https://ourworldindata.org/grapher/world-bank-income-groups?time=2024), shows that most of the population of the world can't afford these tools if they also want to afford basic housing, utilities, food, etc. This brings back to the need of small LLMs which run on the edge and this affordability gap continue to reduce. The cost keeps coming down for access to these technology in some form or the other. This is a magical tool and hopefully power of intelligence is in the hands of everyone so that they can make better decisions, can help with whatever they're doing and certainly uplift society to the next level. _"Intelligence on demand"_, it's the evolution of computing and integration of computing with human action and perception. I think having globalisation is the only way to improve upon this aspect, although the world seem to be moving back in the opposite direction. IP hiding, racing against each other. Living is not a zero-sum game and we shouldn't treat it like that.
+
+<iframe src="https://ourworldindata.org/grapher/world-bank-income-groups?time=2024&tab=map" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 
 ## AIs dark-side!
 
