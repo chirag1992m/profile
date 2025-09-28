@@ -11,7 +11,7 @@ ai_assisted: false
 
 What's the first thing you do when you connect to the internet? If you're like me, you'll go to Google.com. Each browser comes with a default search engine, and for most of us, it's **Google**. That gateway earlier had two main buttons, `Google Search` and `I'm Feeling Lucky`. `I'm feeling lucky` simply opened the first link that google ranked the highest for the query.
 
-In 2022 chatGPT was released by OpenAI, and it was a game changer. It was able to answer questions better than any other search engine although didn't have the ability to be up-to-date with the latest information. It was able to write code, and even write essays. As the traffic on chatGPT grew, Google had to act fast before it loses its own game. After many iterations, like the LamDa, Palm, gemini studio, notebookLM, etc., `I'm feeling lucky` was replaced with `AI Mode` in March 2025 in the US. They took a lot more time to bring this to the forefront compared to other AI companies even though the seminal paper on transformers was published by google researchers; mostly because they couldn't forego their reputation with a *half-baked product* and practically AI based search *breaks the main business model of Google's Adsense*.
+In 2022 chatGPT was released by OpenAI, and it was a game changer. It was able to answer questions better than any other search engine although didn't have the ability to be up-to-date with the latest information. It was able to write code, and even write essays. As the traffic on chatGPT grew, Google had to act fast before it loses its own game. After many iterations, like the LamDa, Palm, gemini studio, notebookLM, etc., `I'm feeling lucky` was replaced with `AI Mode` in March 2025 in the US. They took a lot more time to bring this to the forefront compared to other AI companies even though the seminal paper on <dict word="transformer">transformers</dict> was published by google researchers; mostly because they couldn't forego their reputation with a *half-baked product* and practically AI based search *breaks the main business model of Google's <dict word="Adsense">Adsense</dict>*.
 ![Google before 2025 and after 2025](/blog_images/thoughts-the-internet-has-changed-forever/google_transition.png)
 
 > And just like that, the gateway to the internet (and practically the internet itself) has changed forever.
@@ -30,7 +30,7 @@ google took a lot more time to introduce the AI-mode. It would kill it's own bus
 
 ## AI Affordability
 
-At the same time, if you have a GPU or a decent laptop can run these models locally, just go search for HuggingFace. Albeit, these models WILL run with reduced thinking. <It's not just the model that matters, but the scaffolding machinery involved> to run them efficiently, with rather accurate results combined with the immense machinery of knowledge improvement of "BigTech" models who have the ability to gather data, throw as much compute needed to solve a problem and generally on average a highly talented team of researchers/engineers who can implemented the latest and greatest algorithms on a rather high speed and the UI aspect of it.
+At the same time, if you have a GPU or a decent laptop can run these models locally, just go search for HuggingFace. Albeit, these <dict word="LLM">LLMs</dict> WILL run with reduced thinking. <It's not just the model that matters, but the scaffolding machinery involved> to run them efficiently, with rather accurate results combined with the immense machinery of knowledge improvement of "BigTech" models who have the ability to gather data, throw as much compute needed to solve a problem and generally on average a highly talented team of researchers/engineers who can implemented the latest and greatest algorithms on a rather high speed and the UI aspect of it.
 
 <insert an image of price comparison between different AI models. compare on price
 
@@ -44,9 +44,9 @@ Looking at the [income groups of the world in the below infographic from "Our wo
 
 ## AIs dark-side!
 
-## Is AGI real or that mythical land of abundance?
+## Is <dict word="AGI">AGI</dict> real or that mythical land of abundance?
 
-Although, I fear AI slop. I do Vibe-coading all the time, and I can see how sloppy sometimes things are. If software was this after made by a team of engineers, it's even more fragile. No actual GDP growth.
+Although, I fear AI <dict word="slop">slop</dict>. I do Vibe-coading all the time, and I can see how sloppy sometimes things are. If software was this after made by a team of engineers, it's even more fragile. No actual GDP growth.
 <MIT report on actuak productivity impact of AI>
 
 And the bot problem, that the traffic on the internet, bots have surpassed human traffic itself. That means, these AI bots are constantly reading things on the internet or in many cases, most websites, applications, softwares you'll start to see will be built with the help of AI or in some cases completely automated. Any technology created for disemminating between AI and human generated content is random at best. Human eyes and knowledge and expertise might be able to help, but that is getting difficult based on how much an human+agent might have improved the structure of the video/image/text you're looking at.
@@ -57,7 +57,7 @@ Commerce and Ads on AI.
 
 Some predictions for the next few years based on my observation:
 
-1. AI would be everywhere, much much more than it is today. It will bleed into Agentic AI, that is, AI working autonomously without any human intervention. It will impact almost all industries.
+1. AI would be everywhere, much much more than it is today. It will bleed into <dict word="agentic">Agentic AI</dict>, that is, AI working autonomously without any human intervention. It will impact almost all industries.
 2. No, you're not going to lose your job to AI anytime soon. But, you will lose your job to someone who knows more about AI than you. How to use it. More importantly, where it isn't good.
 3. AI will comprise more of "Small Agents" instead of large agents everywhere. Although, as internet itself gets better, it might be possible that you can stream intelligence almost anywhere with blazing fast speeds that you don't need small agents at all.
 4. No one will visit your website. When the trust on AI builds up, people will stop looking at the citation, and directly ingest AIs output without question. https://kumrayush.medium.com/really-simple-licensing-rsl-a-new-standard-protecting-writers-from-ai-companies-a9f5905f5c72

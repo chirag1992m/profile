@@ -174,3 +174,73 @@
     position: relative;
     scroll-margin-top: 2rem;
 }
+
+/* Dictionary tooltip styles */
+.dictionary-word {
+    @apply transition-all duration-200 ease-in-out;
+}
+
+.dictionary-word:hover {
+    @apply transform scale-105;
+}
+
+.dictionary-tooltip {
+    @apply opacity-0 scale-95 transition-all duration-200 ease-out;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    animation: tooltipFadeIn 0.2s ease-out forwards;
+}
+
+@keyframes tooltipFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.dictionary-tooltip::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #ffffff;
+    z-index: 1;
+}
+
+.dictionary-tooltip::after {
+    content: '';
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #e5e7eb;
+    z-index: 0;
+}
+
+/* Dark mode support for dictionary tooltips */
+@media (prefers-color-scheme: dark) {
+    .dictionary-tooltip {
+        @apply bg-gray-800 border-gray-700;
+    }
+    
+    .dictionary-tooltip::before {
+        border-bottom-color: #1f2937;
+    }
+    
+    .dictionary-tooltip::after {
+        border-bottom-color: #374151;
+    }
+}

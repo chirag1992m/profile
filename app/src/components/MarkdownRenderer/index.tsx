@@ -11,6 +11,7 @@ import linkifyRegex from 'remark-linkify-regex'
 import remarkMath from 'remark-math'
 
 import { CodeBlock } from './CodeBlock'
+import { DictionaryWord } from '../Dictionary'
 
 const customSanitizeSchema = {
     ...defaultSchema,
@@ -19,6 +20,7 @@ const customSanitizeSchema = {
         'details',
         'summary',
         'iframe',
+        'dict',
     ],
     attributes: {
         ...defaultSchema.attributes,
@@ -33,6 +35,7 @@ const customSanitizeSchema = {
             'title',
             'sandbox',
         ],
+        dict: ['word'],
     },
 }
 
@@ -100,6 +103,10 @@ function getComponentsForVariant() {
                     {children}
                 </code>
             )
+        },
+        dict({ node, ...props }: any) {
+            const word = props.word || props.children
+            return <DictionaryWord word={word}>{props.children}</DictionaryWord>
         },
     }
 }
