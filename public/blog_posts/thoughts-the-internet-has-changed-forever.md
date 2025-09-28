@@ -6,29 +6,33 @@ category: 'Thoughts'
 date: '2025-05-25'
 cover_image: '/blog_images/thoughts-the-internet-has-changed-forever/brain_transition.png'
 cover_image_prompt: 'Three brains: Brain without AI used, Brain with AI in conjunction, complete AI brain'
-ai_assisted: true
+ai_assisted: false
 ---
 
-What's the first thing you do when you go to the internet? If you're like me, you'll go to Google.com. Each browser comes with a default search engine, and for most of us, it's Google. That gateway earlier had two main buttons, `Google Search` and `I'm Feeling Lucky`. `I'm feeling lucky` simply opened the first link that google ranked the highest for the query.
+What's the first thing you do when you connect to the internet? If you're like me, you'll go to Google.com. Each browser comes with a default search engine, and for most of us, it's **Google**. That gateway earlier had two main buttons, `Google Search` and `I'm Feeling Lucky`. `I'm feeling lucky` simply opened the first link that google ranked the highest for the query.
 
-In 2022 chatGPT was released by OpenAI, and it was a game changer. It was able to answer questions better than any other search engine although didn't have the ability to be up-to-date with the latest information. It was able to write code, and even write essays. As the traffic on chatGPT grew, Google had to react. After many iterations, they introduced `AI Mode` in 2025. `I'm feeling lucky` now has been replaced with `AI Mode`. And if you're in the US, even with the blue links, the top thing you see is the AI modes answer to the query. 
+In 2022 chatGPT was released by OpenAI, and it was a game changer. It was able to answer questions better than any other search engine although didn't have the ability to be up-to-date with the latest information. It was able to write code, and even write essays. As the traffic on chatGPT grew, Google had to act fast before it loses its own game. After many iterations, like the LamDa, Palm, gemini studio, notebookLM, etc., `I'm feeling lucky` was replaced with `AI Mode` in March 2025 in the US. They took a lot more time to bring this to the forefront compared to other AI companies even though the seminal paper on transformers was published by google researchers; mostly because they couldn't forego their reputation with a *half-baked product* and practically AI based search *breaks the main business model of Google's Adsense*.
 ![Google before 2025 and after 2025](/blog_images/thoughts-the-internet-has-changed-forever/google_transition.png)
 
-There's been many tools by Google on the way to this mode, like the LamDa, Palm, gemini studio, notebookLM, etc. to get to a general purpose AI mode. And just like that, the internet has changed forever.
+> And just like that, the gateway to the internet (and practically the internet itself) has changed forever.
 
-In this blog post, I'll be discussing the what I think AI is, the affordability of AI, some of its dark-sides, and finally some of my own "predictions" for the future of AI and the internet.
+As I work in the industry related to AI and its applications, I've been thinking a lot about the future of AI and the internet. I've been thinking about the impact of AI on the society, the economy, the job market, on the environment, privacy, impact on the human mind, how it changes creativity itself, and more. In this post, I'll be discussing what I think AI is, the affordability of AI, some of its dark-sides, and finally some of my own "predictions" for the future of AI and the internet.
 
-## AI as a tool
+## Artificial Intelligence is a *Tool*
+
+Like with most human inventions, AI is a tool. Albeit it feels like a magical tool, but, it's multi-disciplinary knowledge put into application to make **almost all** human knowledge available to you instantly via a digital interface. See all the different logos from different companies, they all look like a digital *all-encompassing oracle*. These companies might want you to think it can never be wrong, it can do anything, it's the ultimate future, but, it's not. It's limited by the knowledge it's trained on which is not even close to the entire human knowledge, the modalities it can work with (can it smell? feel? taste?), the compuatational power and time it's provided to solve a query. Even if we assume it has all the human knowledge in the world, human knowledge itself is not complete and not even "perfect", i.e., there can be more than one truth sometimes.
+
+![Logos of AI tools from various technology companies](/blog_images/thoughts-the-internet-has-changed-forever/ai_logos.png)
 
 Not that, I want you to let all your thinking be done by the tech you use. How many do you think have the same capabilities of navigation without google maps? Do you ever try to remember phone numbers of even your loved ones? But, humans have always built tools to do our bidding, and this comes to my next point. It's a tool. It's a magical tool, that even companies logo all look like that they've created a magical wand.
-
-At the same time, if you have a GPU or a decent laptop can run these models locally, just go search for HuggingFace. Albeit, these models WILL run with reduced thinking. <It's not just the model that matters, but the scaffolding machinery involved> to run them efficiently, with rather accurate results combined with the immense machinery of knowledge improvement of "BigTech" models who have the ability to gather data, throw as much compute needed to solve a problem and generally on average a highly talented team of researchers/engineers who can implemented the latest and greatest algorithms on a rather high speed and the UI aspect of it.
-
-<insert an image of price comparison between different AI models. compare on price, capability (image, text, math, coding, etc.)>
 
 google took a lot more time to introduce the AI-mode. It would kill it's own business. Now it's at the forefront because it can't lose this race to anyone else. They've also figured out, being a platform is better and they've figured out all the different aspects of "AI building", which mind you NO company has in one place, even NVidia. All the everyday applications are dominated by Google: Search, Maps, Browser.
 
 ## AI Affordability
+
+At the same time, if you have a GPU or a decent laptop can run these models locally, just go search for HuggingFace. Albeit, these models WILL run with reduced thinking. <It's not just the model that matters, but the scaffolding machinery involved> to run them efficiently, with rather accurate results combined with the immense machinery of knowledge improvement of "BigTech" models who have the ability to gather data, throw as much compute needed to solve a problem and generally on average a highly talented team of researchers/engineers who can implemented the latest and greatest algorithms on a rather high speed and the UI aspect of it.
+
+<insert an image of price comparison between different AI models. compare on price
 
 As of this writing, the latest and the greatest models from big-technology companies costs in the range of approximately \$20 per month per user which are still rate limited. How many people do you think can afford that? The lower-end of the best AI model devices cost more than \$350 and then there's application fees. Each "good" AI application (for eg: cursorAI) you want to use might have its own cost, might bring it's total cost to a multiple of it.
 
