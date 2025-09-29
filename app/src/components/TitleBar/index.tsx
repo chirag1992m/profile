@@ -50,29 +50,29 @@ export function TitleBar({
     })
 
     const initialTitleOffsetsRef = React.useRef(initialTitleOffsets)
-    const setInitialTitleOffsets = (data) => {
+    const setInitialTitleOffsets = (data: { top: number; bottom: number }): void => {
         initialTitleOffsetsRef.current = data
         _setInitialTitleOffsets(data)
     }
 
     const opacityRef = React.useRef(opacity)
-    const setOpacity = (data) => {
+    const setOpacity = (data: number): void => {
         opacityRef.current = data
         _setOpacity(data)
     }
 
     const currentScrollOffsetRef = React.useRef(currentScrollOffset)
-    const setCurrentScrollOffset = (data) => {
+    const setCurrentScrollOffset = (data: number): void => {
         currentScrollOffsetRef.current = data
         _setCurrentScrollOffset(data)
     }
 
     const handler = React.useCallback(() => {
-        if (!scrollContainerRef?.current) return
+        if (scrollContainerRef?.current === null || scrollContainerRef?.current === undefined) return
         const shadowOpacity = scrollContainerRef.current.scrollTop / 200
         setCurrentScrollOffset(shadowOpacity > 0.12 ? 0.12 : shadowOpacity)
 
-        if (!titleRef?.current || !initialTitleOffsetsRef?.current) return
+        if (titleRef?.current === null || titleRef?.current === undefined || initialTitleOffsetsRef?.current === undefined) return
 
         const titleTop = titleRef.current.getBoundingClientRect().top - 48
         const titleBottom = titleRef.current.getBoundingClientRect().bottom - 56
@@ -86,23 +86,25 @@ export function TitleBar({
 
         setOffset(Math.min(Math.max(offsetAmount, 0), 100))
         setOpacity(opacityOffset)
-    }, [title, titleRef, scrollContainerRef])
+    }, [titleRef, scrollContainerRef])
 
     React.useEffect(() => {
-        scrollContainerRef?.current?.addEventListener('scroll', handler)
-        return () =>
-            scrollContainerRef?.current?.removeEventListener('scroll', handler)
-    }, [title, titleRef, scrollContainerRef])
+        const scrollContainer = scrollContainerRef?.current
+        if (scrollContainer === null || scrollContainer === undefined) return
+        
+        scrollContainer.addEventListener('scroll', handler)
+        return () => { scrollContainer.removeEventListener('scroll', handler); }
+    }, [handler, scrollContainerRef])
 
     React.useEffect(() => {
-        if (!titleRef?.current || !scrollContainerRef?.current) return
+        if (titleRef?.current === null || titleRef?.current === undefined || scrollContainerRef?.current === undefined) return
         scrollContainerRef.current.scrollTop = 0
         setOpacity(0)
         setInitialTitleOffsets({
             bottom: titleRef.current.getBoundingClientRect().bottom - 56,
             top: titleRef.current.getBoundingClientRect().top - 48,
         })
-    }, [title, titleRef, scrollContainerRef])
+    }, [titleRef, scrollContainerRef])
 
     return (
         <>
@@ -150,7 +152,7 @@ export function TitleBar({
                             </Link>
                         )}
 
-                        {leadingAccessory && <>{leadingAccessory}</>}
+                        {leadingAccessory !== null && leadingAccessory !== undefined && <>{leadingAccessory}</>}
 
                         <h2
                             style={
@@ -167,7 +169,7 @@ export function TitleBar({
                         </h2>
                     </span>
 
-                    {trailingAccessory && <>{trailingAccessory}</>}
+                    {trailingAccessory !== null && trailingAccessory !== undefined && <>{trailingAccessory}</>}
                 </div>
 
                 <div>{children}</div>
