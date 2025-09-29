@@ -1,11 +1,12 @@
 ---
 slug: 'cs-trends-h1-2024-selected-topics'
 title: 'CS Trends H1 2024: Selected Topics'
-subtitle: 'Opinion piece on selected topics'
+subtitle: 'Laymen terms for selected topics'
 category: 'CS Yearly Trends'
 date: '2025-05-22'
 cover_image: '/blog_images/cs-trends-h1-2024/wordcloud.png'
 cover_image_prompt: 'Wordcloud of most used words in AI research papers'
+ai_assisted: true
 ---
 
 # CS Trends H1 2024: Selected Topics

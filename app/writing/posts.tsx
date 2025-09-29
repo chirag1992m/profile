@@ -12,6 +12,7 @@ export interface postMetadata {
     date: string
     cover_image: string
     cover_image_prompt?: string
+    ai_assisted?: boolean
 }
 
 export const getAllPostsMetadata = (): postMetadata[] => {
@@ -41,6 +42,7 @@ export const getAllPostsMetadata = (): postMetadata[] => {
                 typeof matterResult.data.cover_image_prompt === 'string'
                     ? matterResult.data.cover_image_prompt
                     : '',
+            ai_assisted: Boolean(matterResult.data.ai_assisted),
         }
     })
 
@@ -52,7 +54,7 @@ export const getCategorizedPosts = (): Record<string, postMetadata[]> => {
     const categories: Record<string, postMetadata[]> = postsMetadata.reduce<
         Record<string, postMetadata[]>
     >((x, y) => {
-        ;(x[y.category] = x[y.category] || []).push(y)
+        ;(x[y.category] = x[y.category] ?? []).push(y)
         return x
     }, {})
 
@@ -82,6 +84,7 @@ export const getWritingPost = (slug: string): WritingDetailProps | null => {
                     typeof matterResult.data.cover_image_prompt === 'string'
                         ? matterResult.data.cover_image_prompt
                         : '',
+                ai_assisted: Boolean(matterResult.data.ai_assisted),
             },
             postContent: matterResult.content,
         }
