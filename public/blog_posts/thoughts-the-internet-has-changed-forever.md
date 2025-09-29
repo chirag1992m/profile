@@ -3,7 +3,7 @@ slug: 'thoughts-the-internet-has-changed-forever'
 title: 'The internet has changed forever'
 subtitle: 'The world with AI'
 category: 'Thoughts'
-date: '2025-05-25'
+date: '2025-09-28'
 cover_image: '/blog_images/thoughts-the-internet-has-changed-forever/brain_transition.png'
 cover_image_prompt: 'Three brains: Brain without AI used, Brain with AI in conjunction, complete AI brain'
 ai_assisted: false
