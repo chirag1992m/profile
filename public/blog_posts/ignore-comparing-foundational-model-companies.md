@@ -49,4 +49,3 @@ X Premium+ $40.00 Includes Grok access plus all other X platform premium feature
 https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models
 
 https://artificialanalysis.ai/models?intelligence-vs-tab=price
-
