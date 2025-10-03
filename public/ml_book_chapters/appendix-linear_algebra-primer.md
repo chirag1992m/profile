@@ -50,13 +50,18 @@ It's applications in finding answers to linear equations, gives it the name Line
 ## Matrices as Linear Transformation
 
 ### Linear independence
+rank
 
 ### Span and Basis Vectors
+column space
+null space / kernel --> vectors mapping to origin during linear transformation
 
 ### Linear Transformation
 Parallel lines, origin remains same
 
 ### Value
+
+#### Norm
 
 #### Determinant
 
