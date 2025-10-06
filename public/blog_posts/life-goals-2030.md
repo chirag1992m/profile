@@ -9,6 +9,10 @@ cover_image_prompt: 'A spiritual image on ikigai'
 ai_assisted: false
 ---
 
+> Who am I? <br/> What’s my purpose? <br/> Am I my thoughts or my actions? <br/> Am I my habits or the moments in between? <br/> Am I my job and title or the person after the clock hits 5 pm? <br/> <br/> Maybe I'm all of it? Or None of it? <br/> Maybe who I am isn’t a fixed answer, but, an unfolding question I live to answer every single day!
+
+I had this quote on my instagram/X profile, *"Life is just a markov decision process having zero expected reward"* which is simply a mathematical way of saying: only the present matters, and whatever you collect in this life, you'll simply leave behind when you die. *Hrithik Roshan* actually said it better with some fun dance moves, "Khaali haath aaye the hum, khaali haath jaayenge". 
+
 I have been trying to journal for many years. But, since getting into IIT, I've never thought of what I want to do. I kind of continued to drift into what seemed right or wrong at the moment. I am, where I want to go, what's important to me, what habits I want to add/remove as I start to play the role of a Dad to a beautiful daughter. And as I've taken up blogging more seriously, I thought I'll use a framework to figure out how to be a better version of myself. There are various frameworks known in various cultures, for eg: ikigai. Some frameworks are sold by gurus, self-help books, optimize your life kinda books. These frameworks could be Odyssey plan, heroes journey, moodboard, eisenhowers matrix. I am not a big fan of such books, but, I have many of them and ultimately read some of them 😅
 
 <insert real image of your bookshelf with self-help books>
