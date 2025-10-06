@@ -97,12 +97,14 @@ export function TitleBar({
     }, [handler, scrollContainerRef])
 
     React.useEffect(() => {
-        if (titleRef?.current === null || titleRef?.current === undefined || scrollContainerRef?.current === undefined) return
-        scrollContainerRef.current.scrollTop = 0
+        const container = scrollContainerRef?.current
+        const titleEl = titleRef?.current
+        if (!titleEl || !container) return
+        container.scrollTop = 0
         setOpacity(0)
         setInitialTitleOffsets({
-            bottom: titleRef.current.getBoundingClientRect().bottom - 56,
-            top: titleRef.current.getBoundingClientRect().top - 48,
+            bottom: titleEl.getBoundingClientRect().bottom - 56,
+            top: titleEl.getBoundingClientRect().top - 48,
         })
     }, [titleRef, scrollContainerRef])
 
