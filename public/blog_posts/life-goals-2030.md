@@ -23,13 +23,13 @@ How do I get back that curiosity that I lost? How can I be more content and with
 
 ![Tim urban's wait but why blog](/blog_images/goals_progress/life_decision_tree.png)
 
-As you can see from my other interests, I like systems, evaluations, building things and I think having a system to being more delibrate would be at least slight. There are various frameworks known in various cultures, for eg: <dict word="ikigai">ikigai</dict>. Some frameworks are sold by gurus, self-help books, lifestyle reels. These frameworks could be Odyssey plan, heroes journey, moodboard, eisenhowers matrix. I am not a big fan of such books, but, I have many of them and did end up reading some of them 😅.
+As you can see from my other interests, I like systems, evaluations, building things and I think having a system to being more delibrate would atleast be slightly helpful. There are various frameworks known in various cultures, for eg: <dict word="ikigai">ikigai</dict>. Some frameworks are sold by gurus, self-help books, lifestyle reels. These frameworks could be Odyssey plan, heroes journey, moodboard, eisenhowers matrix. I am not a big fan of such books, but, I have many of them and did end up reading some of them 😅.
 
 ![Tim urban's wait but why blog](/blog_images/goals_progress/bookshelf.png)
 
 For this exercise to work, I'll go with one framework. Let's assume, life is made up of a few main parts, your mental and physical health, your family and close relationship, your social life and friends, your finances, your career and intellectual satisfaction, spirituality. I'll try and give a personal score (out of 10) to each of these categories. The main motive is to give the score without thinking much and based on what you feel when you hear those words. Once done, we'll go over each category and figure out how can we improve on that category and how important it is to improve on that category.
 
-| Area | Rating |
+| Life Area | Rating (out of 10) |
 |--------------------|--------|
 | Physical and Mental Health | 4 |
 | Relationship and family | 8 |
