@@ -84,6 +84,51 @@ export const dictionary: Record<string, DictionaryEntry> = {
             'BigTech firms like Google and Microsoft are leading the AI revolution.',
         ],
     },
+    chaar_log_kya_kahenge: {
+        word: 'chaar log kya kahenge',
+        definition:
+            'A hindi phrase used to describe the fear of what others (generally the close neighbors and family members) will say about you about your actions.',
+        pronunciation: '/ˈtʃɑːr ˈlɒg ˈkja ˈkæˈhenʤi/'
+    },
+    social_media: {
+        word: 'Social Media',
+        definition:
+            'Digital platforms and technologies that enable users to create, share, and interact with content and other users, often through personalized feeds and algorithms.',
+        pronunciation: '/ˈsoʊʃəl ˈmidiə/',
+        etymology:
+            'From "social" (relating to society) + "media" (communication channels), referring to digital platforms for social interaction.',
+        examples: [
+            'Social media has transformed how people connect and share information.',
+            'Platforms like Facebook, Instagram, TikTok, LinkedIn, etc. are examples of social media.',
+            'Social media algorithms create personalized content feeds for users.',
+        ],
+    },
+    ikigai: {
+        word: 'ikigai',
+        definition:
+            'A Japanese concept meaning "reason for being" or "purpose in life" - the intersection of what you love, what you are good at, what the world needs, and what you can be paid for.',
+        pronunciation: '/ˌiːkiˈɡaɪ/',
+        etymology:
+            'From Japanese 生き甲斐 (iki-gai), where iki means "life" and gai means "worth" or "value".',
+        examples: [
+            'Finding your ikigai can lead to a more fulfilling and purposeful life.',
+            'The ikigai framework helps identify the sweet spot between passion, mission, profession, and vocation.',
+            'Many people in Okinawa, Japan, credit their longevity to living according to their ikigai.',
+        ],
+    },
+    iit: {
+        word: 'IIT',
+        definition:
+            'Indian Institute of Technology - A group of autonomous public technical universities in India, widely regarded as the most prestigious engineering institutions in the country.',
+        pronunciation: '/ˌaɪaɪˈtiː/',
+        etymology:
+            'Acronym for "Indian Institute of Technology", established to provide world-class technical education in India.',
+        examples: [
+            'IIT graduates are highly sought after by top companies worldwide.',
+            'Getting into an IIT is considered a major achievement in India due to the extremely competitive entrance exam.',
+            'The IIT system has produced many successful entrepreneurs and engineers globally.',
+        ],
+    },
 }
 
 // Helper function to check if a word exists in the dictionary
