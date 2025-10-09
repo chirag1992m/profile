@@ -88,7 +88,7 @@ export const dictionary: Record<string, DictionaryEntry> = {
         word: 'chaar log kya kahenge',
         definition:
             'A hindi phrase used to describe the fear of what others (generally the close neighbors and family members) will say about you about your actions.',
-        pronunciation: '/ˈtʃɑːr ˈlɒg ˈkja ˈkæˈhenʤi/'
+        pronunciation: '/ˈtʃɑːr ˈlɒg ˈkja ˈkæˈhenʤi/',
     },
     social_media: {
         word: 'Social Media',
