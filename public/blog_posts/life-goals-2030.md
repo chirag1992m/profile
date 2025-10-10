@@ -42,19 +42,23 @@ For this exercise to work, I'll go with one framework. Let's assume, life is mad
 
 ## Physical and Mental Health
 
-Everything starts from your health. It is the foundation that everything else stands on. If you're healthy, you'll be able to support your relationships, family, go meet friends, work to earn money, etc. I think health is much simpler than everyone describes it to be. And I think both physical and mental health are related in powerful ways. One can boost the other or drag the other one down. There are three main things to maintain a "good" health.
+Everything starts from your health. It is the foundation that everything else stands on. If you're healthy, you'll be able to support your relationships, family, go meet friends, work to earn money, etc. I ended up giving it a 4 as I've been struggling with addiction to 🍃💨. I have been partaking in the activity almost everyday for the past 2-3 years and weekly/bi-weekly for almost 10 years. My preconception of marijuana that it isn't addictive shattered a a year ago since I've been trying to quit, but failing to do so everytime. As I fell off the fitness wagon, I was exercising almost everyday for 7 years and then suddenly stopped due to covid, combined with smoking, both my physical and mental health has taken a bit hit. This requires a heavy intervention.
 
-1. Nutrition: Your body and mind needs fuel to operate well.
-2. Mental and Physical Activity: Moving your mind and body allows it to learn its functions, explore its degrees of freedom, and grow.
-3. Mental and Physical rest: It's only during rest, that you recover and rebuild.
+From now on, no more smoking. Not even a little bit. Let's go cold turkey on this. Secondly, to keep the cravings on the bay, we'll indulge into fitness, nutrition and the occasional cheat meal. There are majorly three things I need to focus on:
 
-Okay, maybe a fourth thing:
+1. Nutrition: Your body and mind needs fuel to operate well. Eat clean most days with an occassional cheat day. Doing a fast every week will further help improve body's insulin response.
+2. Mental and Physical Activity: Moving your mind and body allows it to learn its functions, explore its degrees of freedom, and grow. Practice any kind of movement, weight-lifting, calisthenics, cardiovascular exercises, etc.
+3. Mental and Physical rest: It's only during rest, that you recover and rebuild. Sleep and meditate as much as you can. Sleep can be a great deterrent to marijuana. Whenever you feel the urge, just take rest and sleep.
 
-1. Lack of
+I'll do a longer post on fitness, for now, the potential action is simple; ***exercise and eat healthy most days, rest and keep off the choo choo train everyday***.
 
 ## Relationship and Family
 
+Currently, this area doesn't need major improvements. I just need to make sure I spend quality time with my family everyday, even if it's for a few short hours!
+
 ## Social life and Friends
+
+
 
 ## Financial
 
