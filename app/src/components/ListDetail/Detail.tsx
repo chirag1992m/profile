@@ -32,7 +32,12 @@ const Container = React.forwardRef<HTMLDivElement, DetailContainerProps>(
 )
 
 const Header: React.FC<React.HTMLProps<HTMLDivElement>> = (props) => {
-    return <div className="relative w-[560px] h-[375px]" {...props} />
+    return (
+        <div
+            className="relative w-full aspect-[560/375] md:w-[560px] md:h-[375px] overflow-hidden md:overflow-visible"
+            {...props}
+        />
+    )
 }
 
 interface TitleProps {
@@ -43,7 +48,7 @@ const Title = React.forwardRef<HTMLHeadingElement, TitleProps>((props, ref) => {
     return (
         <h1
             ref={ref}
-            className="text-primary font-sans text-3xl font-bold xl:text-3xl absolute bottom-[-30px] left-2.5 bg-white border-2 border-black rounded-lg p-2.5"
+            className="text-primary font-sans font-bold text-2xl md:text-3xl absolute bottom-2 left-2 right-2 md:bottom-[-30px] md:left-2.5 md:right-2.5 bg-white dark:bg-black border-2 border-black rounded-lg px-3 py-2 md:p-2.5 max-w-full"
             {...props}
         />
     )
