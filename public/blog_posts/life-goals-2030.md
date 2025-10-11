@@ -54,7 +54,9 @@ I'll do a longer post on fitness, for now, the potential action is simple; ***ex
 
 ## Relationship and Family
 
-Currently, this area doesn't need major improvements. The only reason I think I didn't give it a 10 is because most of my intermediate family lives far from me. I guess, this is what every immigrant trades-off for a better work/life. We're okay with living far from our parents, as long as we can give them a shot at a better life. I sometimes think it's so foolish, you sacrifice the same thing you work so hard for. 
+Currently, this area doesn't need major improvements. The only reason I think I didn't give it a 10 is because most of my intermediate family lives far from me. I guess, this is what every immigrant trades-off for a better work/life. We're okay with living far from our parents, as long as we can give them a shot at a better life. I sometimes think it's so foolish, you sacrifice the same thing you work so hard for.
+
+One thing I will do to improve on this aspect, which I think is easy: Schedule one video call with a faraway family member every week.
 
 ## Social life and Friends
 
@@ -75,8 +77,9 @@ As you immigrate to a new country to make a career, sacrificing your proximity t
 -   *what you can be paid for*: corporations and governments generally pay good amount of money to good engineers. Lately, the best researchers and engineers have been earning in upwards of \$100M
 -   *what are you good at*: I am moderately good at engineering.
 
-What I do directly aligns with what I'm doing. So, why did I give this category a mere 5? In the past decade, my career and my skills have grown but I still feel largely behind my peers/colleagues. One of the reasons is the kind of managers I've had in the past few years wherein I've seen so many important opportunities just slip away from me. I try to find various reasons what happened, why I got left behind? That's just a futile exercise. Nothing can change the past, but I can take action to change it for the future:
-1. I hope to write a book on machine learning and publish it for the world.
+What I do directly aligns with what I'm doing. So, why did I give this category a mere 5? In the past decade, my career and my skills have grown but I still feel largely behind my peers/colleagues. One of the reasons is the kind of managers I've had in the past few years wherein I've seen so many important opportunities just slip away from me. I try to find various reasons what happened, why I got left behind? That's just a futile exercise. Nothing can change the past, but I can take action to change it for the future, igniting the fire of curiosity again:
+
+1. I hope to write a book on machine learning and publish it. This blog writing is basically a precursor to put me in a habit of writing.
 2. I have already started to small businesses, namely, ActionSync and NestAura and I hope to continue developing them. NestAura specially comes with a special mission, close to my heart, making healthy life accessible to all!
 3. I want to continue indulging in activities that keep me mentally active. I have started playing around with electronics and hope to even start board game design.
 
@@ -86,7 +89,7 @@ I don't want to comment on this section. I think I never understood or understan
 
 # Goals
 
-Based on the above thoughts, I want to bring the main goals back together and hopefully document the journey on this blog as time goes along.
+The path ahead isn't about chasing another shiny title or external validation. A journey that starts with the sobriety, the first plank of wood in my new foundation. These six goals are my current anchors. They represent my commitment to rewrite my story, not just on this blog, but in my life, by living out that revised quote: finding infinite potential, value, and love in every deliberate action. I look forward to using this space to document the failures, the small wins, and the evolving answer to that unfolding question: Who am I?
 
 1. Eat healthy food.
 2. Exercise regularly.
