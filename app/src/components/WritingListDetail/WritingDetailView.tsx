@@ -40,7 +40,7 @@ export const WritingDetailView: React.FC<WritingDetailProps> = ({
                         priority
                         src={postMetadata.cover_image}
                         fill
-                        className="rounded-2xl"
+                        className="rounded-2xl object-cover"
                         quality={100}
                         alt={
                             postMetadata.cover_image_prompt != null &&
@@ -54,7 +54,7 @@ export const WritingDetailView: React.FC<WritingDetailProps> = ({
                     </Detail.Title>
                 </Detail.Header>
 
-                <article className="prose lg:prose-md mt-20">
+                <article className="prose lg:prose-md mt-6 md:mt-20">
                     <MarkdownRenderer>{postContent}</MarkdownRenderer>
                 </article>
             </Detail.ContentContainer>

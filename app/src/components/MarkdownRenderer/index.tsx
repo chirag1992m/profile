@@ -86,10 +86,10 @@ function getComponentsForVariant(): Record<string, any> {
             ...props
         }: any): React.ReactElement {
             const language = /language-(\w+)/.exec(className ?? '')?.[1]
-            return !inline && language !== undefined ? (
+            return inline !== true && language !== undefined ? (
                 <CodeBlock
-                    text={String(children).replace(/\n$/, '')}
-                    language={language}
+                    text={String(children ?? '').replace(/\n$/, '')}
+                    language={String(language)}
                     {...props}
                 />
             ) : (
@@ -104,10 +104,10 @@ function getComponentsForVariant(): Record<string, any> {
             ...props
         }: any): React.ReactElement {
             const language = /language-(\w+)/.exec(className ?? '')?.[1]
-            return !inline && language !== undefined ? (
+            return inline !== true && language !== undefined ? (
                 <CodeBlock
-                    text={String(children).replace(/\n$/, '')}
-                    language={language}
+                    text={String(children ?? '').replace(/\n$/, '')}
+                    language={String(language)}
                     {...props}
                 />
             ) : (

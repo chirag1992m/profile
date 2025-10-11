@@ -1,11 +1,11 @@
 ---
-slug: 'ignore-choose-your-model'
-title: 'Comparing the leading tech companies'
-subtitle: 'Who has the most winning chips?'
+slug: 'ignore-comparing-foundational-model-companies'
+title: 'Comparing the leading AI models'
+subtitle: 'The fight of the decade'
 category: 'Thoughts'
 date: '2025-10-07'
-cover_image: '/blog_images/thoughts-the-internet-has-changed-forever/brain_transition.png'
-cover_image_prompt: 'Three brains: Brain without AI used, Brain with AI in conjunction, complete AI brain'
+cover_image: '/blog_images/comparing-foundational-model-companies/companies_boxing_match.png'
+cover_image_prompt: 'A demi-god boxing match between the top AI companies'
 ai_assisted: true
 ---
 
@@ -46,4 +46,6 @@ Microsoft Copilot Pro $20.00 Priority access to the latest models (like GPT-5) a
 xAI (Grok) SuperGrok $30.00 (or $300/year) Access to Grok 3 (latest model) and advanced reasoning tools. Real-Time Data & Unfiltered Access. Offers DeepSearch for real-time web context from the X platform (formerly Twitter) and is known for its unique personality and less filtered responses.
 X Premium+ $40.00 Includes Grok access plus all other X platform premium features. Primarily a subscription to the X platform, with Grok access bundled in.
 
-Export to Sheets
+https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models
+
+https://artificialanalysis.ai/models?intelligence-vs-tab=price
