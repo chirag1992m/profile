@@ -3,7 +3,7 @@ slug: 'life-goals-2030'
 title: 'Life Goals 2030'
 subtitle: 'Countdown of 5 years'
 category: 'Goals Progress'
-date: '2025-10-05'
+date: '2025-10-10'
 cover_image: '/blog_images/goals_progress/ikigai.png'
 cover_image_prompt: 'A spiritual image on ikigai'
 ai_assisted: false
