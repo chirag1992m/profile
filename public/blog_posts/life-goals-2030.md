@@ -68,12 +68,17 @@ But, what can I do to be really financially secure. For now, I'll continue to do
 
 ## Career and Intellectual
 
-<dict word="ikigai">Ikigai</dict>
+As you immigrate to a new country to make a career, sacrificing your proximity to your family, I feel guilt every moment I'm not working on my career. If you look at the <dict word="ikigai">Ikigai</dict> venn diagram:
 
--   What you love: building/engineering technology
--   what the world needs: building/engineering technology is obviously one of them
--   what you can be paid for: corporations and governments generally pay good amount of money to good engineers. Lately, the best researchers and engineers have been earning in upwards of \$100M
--   what are you good at: I am moderately good at engineering, but, I think I can get much better. I need to open up some horizons by taking more action.
+-   *What you love*: building, engineering and technology
+-   *what the world needs*: building, engineering and technology is obviously one of them
+-   *what you can be paid for*: corporations and governments generally pay good amount of money to good engineers. Lately, the best researchers and engineers have been earning in upwards of \$100M
+-   *what are you good at*: I am moderately good at engineering.
+
+What I do directly aligns with what I'm doing. So, why did I give this category a mere 5? In the past decade, my career and my skills have grown but I still feel largely behind my peers/colleagues. One of the reasons is the kind of managers I've had in the past few years wherein I've seen so many important opportunities just slip away from me. I try to find various reasons what happened, why I got left behind? That's just a futile exercise. Nothing can change the past, but I can take action to change it for the future:
+1. I hope to write a book on machine learning and publish it for the world.
+2. I have already started to small businesses, namely, ActionSync and NestAura and I hope to continue developing them. NestAura specially comes with a special mission, close to my heart, making healthy life accessible to all!
+3. I want to continue indulging in activities that keep me mentally active. I have started playing around with electronics and hope to even start board game design.
 
 ## Spiritual
 
@@ -88,6 +93,7 @@ Based on the above thoughts, I want to bring the main goals back together and ho
 3. stop smoking.
 4. Spend more time with family.
 5. Work on three things:
+  - Complete machine learning book
   - Pet projects like ActionSync and NestAura.
   - Follow the hobby of making electronics and board games.
 6. Continue to save and invest.
