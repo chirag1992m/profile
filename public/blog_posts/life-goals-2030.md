@@ -54,17 +54,21 @@ I'll do a longer post on fitness, for now, the potential action is simple; ***ex
 
 ## Relationship and Family
 
-Currently, this area doesn't need major improvements. I just need to make sure I spend quality time with my family everyday, even if it's for a few short hours!
+Currently, this area doesn't need major improvements. The only reason I think I didn't give it a 10 is because most of my intermediate family lives far from me. I guess, this is what every immigrant trades-off for a better work/life. We're okay with living far from our parents, as long as we can give them a shot at a better life. I sometimes think it's so foolish, you sacrifice the same thing you work so hard for. 
 
 ## Social life and Friends
 
-
+I'm lucky to have great sets of friends! The people who care for me and my family, never back down in supporting me or having fun. The reason I gave this category a 7, mostly because I don't get to spend time with them as much I would want to. That's adulting, isn't it? Making plans take forever and everyone's fighting their own battles. At the same time, immigration doesn't just set you far apart from your family but your closest friends too. I hope to love and cherish every moment I spend with them but there's nothing I want to change here. This category can definitely can be better, but I'm very much content with what life has given me.
 
 ## Financial
 
+Should you even discuss financials on a public website. Probably not, but, you shouldn't discuss other aspects of life other. But, what is really private anymore (iykyk)?
+I was born in a lower middle class family and I realized very early on that money is super important to have a comfortable life. In a capitalistic world, practically, most people would put money above everything else. Recently though, I've learnt time is the most important thing. You might trade in your time for money, because it literally runs the world; But, money is only a means to an end. I hope to earn enough money to have a comfortable life and such that none of my family members have to worry about money. But, why did I really give this category only a 6? As long as you're living paycheck to paycheck, when you're only a few bad months away from losing the place you call home, how can you feel financially secure?
+But, what can I do to be really financially secure. For now, I'll continue to do a few things which help make long term wealth: Save and Invest regularly. I hope to do a larger post on this later as I try and unpack the secrets of personal finance.
+
 ## Career and Intellectual
 
-<dict word="ikigai">Ikigai</dict>:
+<dict word="ikigai">Ikigai</dict>
 
 -   What you love: building/engineering technology
 -   what the world needs: building/engineering technology is obviously one of them
@@ -72,3 +76,18 @@ Currently, this area doesn't need major improvements. I just need to make sure I
 -   what are you good at: I am moderately good at engineering, but, I think I can get much better. I need to open up some horizons by taking more action.
 
 ## Spiritual
+
+I don't want to comment on this section. I think I never understood or understand spirituality enough to say anything about it. In fact, in most cases, I've tried to run away from it. I've seen cultural and religious wars, people spewing hate for each other just based on the fact on which god/religion they follow. I never got the urge for it and I hope I never do. Isn't spirituality different than just the religion you follow? I think it is. But, again, I don't understand it enough to speak about it. I hope to learn and bring this more into my life. For now, I have other things to do 🙂.
+
+# Goals
+
+Based on the above thoughts, I want to bring the main goals back together and hopefully document the journey on this blog as time goes along.
+
+1. Eat healthy food.
+2. Exercise regularly.
+3. stop smoking.
+4. Spend more time with family.
+5. Work on three things:
+  - Pet projects like ActionSync and NestAura.
+  - Follow the hobby of making electronics and board games.
+6. Continue to save and invest.
