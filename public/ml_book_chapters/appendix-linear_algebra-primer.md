@@ -1,6 +1,6 @@
 ---
 slug: 'appendix-linear_algebra-primer'
-index: 1
+index: 2
 chapter: 'Appendix'
 title: 'Linear Algebra'
 sub_index: 1

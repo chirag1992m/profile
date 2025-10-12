@@ -1,6 +1,6 @@
 ---
 slug: 'appendix-probability-primer'
-index: 1
+index: 2
 chapter: 'Appendix'
 title: 'Probability'
 sub_index: 2
