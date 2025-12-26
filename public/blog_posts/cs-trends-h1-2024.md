@@ -6,9 +6,8 @@ category: 'CS Yearly Trends'
 date: '2024-07-07'
 cover_image: '/blog_images/cs-trends-h1-2024/cover_image.png'
 cover_image_prompt: 'Cited from https://www.informationisbeautifulawards.com/showcase/2333-map-of-computer-science'
+ai_assisted: true
 ---
-
-# Introduction
 
 As we move into the second half of 2024, it's fascinating to explore the current trends and future directions of the technology industry, particularly in computer science. This ever-evolving field draws from diverse disciplines such as physics, mathematics, and statistics, encompassing both theoretical and applied branches. From the tiniest transistors in computer chips to the vast high-bandwidth fiber networks that power our information age, the scope of computer science is incredibly vast.
 
