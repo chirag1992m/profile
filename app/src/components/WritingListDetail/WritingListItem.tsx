@@ -6,11 +6,12 @@ import { ListItem } from '../ListDetail/ListItem'
 
 interface WritingListItemProps {
     post: postMetadata
+    topNav: string
     active: boolean
 }
 
 export const WritingListItem = React.memo<WritingListItemProps>(
-    ({ post, active }) => {
+    ({ post, topNav, active }) => {
         const aiIndicator =
             post.ai_assisted === true ? (
                 <div className="flex items-center justify-center w-4 h-4">
@@ -35,12 +36,11 @@ export const WritingListItem = React.memo<WritingListItemProps>(
                     />
                 </div>
             )
-
         return (
             <ListItem
                 key={`wli_${post.slug}`}
-                href="/writing/[slug]"
-                as={`/writing/${post.slug}`}
+                href={`/${topNav}/[slug]`}
+                as={`/${topNav}/${post.slug}`}
                 title={post.title}
                 description={post.subtitle}
                 byline={`${post.date}`}

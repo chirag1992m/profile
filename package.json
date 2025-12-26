@@ -1,16 +1,18 @@
 {
     "name": "digital-madness",
     "homepage": "http://digital-madness.in",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "postbuild": "next-sitemap",
         "serve": "npx serve@latest out",
         "lint": "next lint --fix",
         "format:all": "prettier --write --list-different ."
     },
     "dependencies": {
         "next": "^14.1.4",
+        "next-sitemap": "^4.2.3",
         "plotly.js": "^2.33.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",

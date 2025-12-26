@@ -96,9 +96,9 @@ The path ahead isn't about chasing another shiny title or external validation. A
 3. stop smoking.
 4. Spend more time with family.
 5. Work on three things:
-  - Complete machine learning book
-  - Pet projects like ActionSync and NestAura.
-  - Follow the hobby of making electronics and board games.
+    - Complete machine learning book
+    - Pet projects like ActionSync and NestAura.
+    - Follow the hobby of making electronics and board games.
 6. Continue to save and invest.
 
 > For what it’s worth: it’s never too late to be whoever you want to be. I hope you live a life you’re proud of, and if you find you’re not, I hope you have the strength to start over again. -F. Scott Fitzgerald

@@ -154,9 +154,9 @@ export function AboutMe(): React.ReactElement {
                                     <Link href="/ml_book" passHref>
                                         machine learning book
                                     </Link>
-                                    &nbsp;focused on how machine learning is
-                                    tranforming different industries, ranging
-                                    from healthcare to entertainment.
+                                    &nbsp;detailing how various industries have
+                                    adopted machine learning transforming
+                                    themselves.
                                 </p>
                             </div>
                         </SectionContent>

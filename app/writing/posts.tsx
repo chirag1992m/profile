@@ -72,6 +72,7 @@ export const getWritingPost = (slug: string): WritingDetailProps | null => {
         const matterResult = matter(fileContent)
 
         return {
+            topNav: 'writing',
             postMetadata: {
                 slug: matterResult.data.slug,
                 title: matterResult.data.title,

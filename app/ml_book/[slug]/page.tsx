@@ -4,13 +4,13 @@ import { ListDetailView } from '../../src/components/ListDetail/ListDetailView'
 import { WritingDetailView } from '../../src/components/WritingListDetail/WritingDetailView'
 import { WritingList } from '../../src/components/WritingListDetail/WritingList'
 import {
-    getAllPostsMetadata,
-    getCategorizedPosts,
-    getWritingPost,
-} from '../posts'
+    getAllChapterMetadata,
+    getCategorizedChapters,
+    getChapter,
+} from '../chapters'
 
-export function generateStaticParams(): Array<{ slug: string }> {
-    const posts = getAllPostsMetadata()
+export function generateStaticParams() {
+    const posts = getAllChapterMetadata()
 
     const paths = posts.map((post) => ({
         slug: post.slug,
@@ -24,26 +24,26 @@ export default function Page({
 }: {
     params: { slug: string }
 }): React.ReactElement {
-    const post = getWritingPost(params.slug)
+    const post = getChapter(params.slug)
 
     return (
         <ListDetailView
             list={
                 <WritingList
-                    title="Blog Posts"
-                    topNav="writing"
-                    categorizedPosts={getCategorizedPosts()}
+                    title="Machine Learning Book"
+                    topNav="ml_book"
+                    categorizedPosts={getCategorizedChapters()}
                 ></WritingList>
             }
             hasDetail={Boolean(post)}
             detail={
-                post != null ? (
+                post && (
                     <WritingDetailView
-                        topNav="writing"
+                        topNav="ml_book"
                         postMetadata={post.postMetadata}
                         postContent={post.postContent}
                     ></WritingDetailView>
-                ) : null
+                )
             }
         />
     )
