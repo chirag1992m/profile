@@ -1,17 +1,17 @@
 ---
-slug: 'cs-trends-h2-2025-selected-topics'
-title: 'CS Trends H2 2025: Selected Topics'
+slug: 'cs-trends-2025-selected-topics'
+title: 'CS Trends 2025: Selected Topics'
 subtitle: 'Laymen terms for selected topics'
 category: 'CS Yearly Trends'
 date: '2025-12-30'
-cover_image: '/blog_images/cs-trends-h2-2025/wordcloud.png'
+cover_image: '/blog_images/cs-trends-2025/wordcloud.png'
 cover_image_prompt: 'Wordcloud of most used words in AI research papers'
 ai_assisted: true
 ---
 
-I originally planned to write this article right after publishing the [previous one](https://digital-madness.in/writing/cs-trends-h1-2024/), but as always, life had other plans. Nevertheless, it's time to dive back into the latest trends shaping computer science research.
+I originally planned to write this article right after publishing the [previous one](https://digital-madness.in/writing/cs-trends-2024/), but as always, life had other plans. Nevertheless, it's time to dive back into the latest trends shaping computer science research.
 
-The word cloud in the banner image—and introduced in the [previous article](https://digital-madness.in/writing/cs-trends-h1-2024/)—highlights the most common terms extracted from arXiv papers. Below, you’ll find the full list of extracted words. If you're interested in exploring the complete dataset, simply click ‘All Words’ to expand it:
+The word cloud in the banner image—and introduced in the [previous article](https://digital-madness.in/writing/cs-trends-2024/)—highlights the most common terms extracted from arXiv papers. Below, you’ll find the full list of extracted words. If you're interested in exploring the complete dataset, simply click ‘All Words’ to expand it:
 
 <details>
 <summary>All words</summary>

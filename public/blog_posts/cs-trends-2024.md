@@ -1,15 +1,15 @@
 ---
-slug: 'cs-trends-h2-2025'
-title: 'CS Trends 2025'
+slug: 'cs-trends-2024'
+title: 'CS Trends 2024'
 subtitle: 'From the lens of scientific publications'
 category: 'CS Yearly Trends'
-date: '2025-12-30'
-cover_image: '/blog_images/cs-trends-h2-2025/cover_image.png'
+date: '2024-07-07'
+cover_image: '/blog_images/cs-trends-2024/cover_image.png'
 cover_image_prompt: 'Cited from https://www.informationisbeautifulawards.com/showcase/2333-map-of-computer-science'
 ai_assisted: true
 ---
 
-As we move into the second half of 2025, it's fascinating to explore the current trends and future directions of the technology industry, particularly in computer science. This ever-evolving field draws from diverse disciplines such as physics, mathematics, and statistics, encompassing both theoretical and applied branches. From the tiniest transistors in computer chips to the vast high-bandwidth fiber networks that power our information age, the scope of computer science is incredibly vast.
+As we move into the second half of 2024, it's fascinating to explore the current trends and future directions of the technology industry, particularly in computer science. This ever-evolving field draws from diverse disciplines such as physics, mathematics, and statistics, encompassing both theoretical and applied branches. From the tiniest transistors in computer chips to the vast high-bandwidth fiber networks that power our information age, the scope of computer science is incredibly vast.
 
 A special shoutout to [Dominic Walliman](https://www.informationisbeautifulawards.com/showcase/2333-map-of-computer-science) for his inspiring cover image that beautifully maps out the numerous possibilities within computer science.
 
@@ -26,7 +26,7 @@ To help you explore the arXiv research paper metadata, I’ve created a starter 
 By examining the number of papers published over the past few years, we can observe some interesting trends. Btw, you can play around with these interactive [plotly](https://plotly.com/) graphs:
 
 ```plotly
-/blog_images/cs-trends-h1-2024/research_per_year.json
+/blog_images/cs-trends-2024/research_per_year.json
 ```
 
 For instance, there was a significant spike in publications around 2015. Although there was a slight dip afterward, the number of papers has steadily increased, indicating continuous progress in many scientific fields.
@@ -34,11 +34,11 @@ For instance, there was a significant spike in publications around 2015. Althoug
 Furthermore, a paper can belong to multiple fields, such as a machine learning paper that fits both computer science and mathematics. Considering the possibility of "double counting," we can analyze the number of papers in each category individually. To account for the double counting of papers belonging to more than one category, we can also look at the co-occurrence matrix between fields.
 
 ```plotly
-/blog_images/cs-trends-h1-2024/stacked_category_research_per_year.json
+/blog_images/cs-trends-2024/stacked_category_research_per_year.json
 ```
 
 ```plotly
-/blog_images/cs-trends-h1-2024/category_co_occurence.json
+/blog_images/cs-trends-2024/category_co_occurence.json
 ```
 
 These visualizations help us understand the areas experiencing the most growth and the interdisciplinary nature of modern research, with computer science playing a pivotal role. Here are some key observations:
@@ -53,11 +53,11 @@ These visualizations help us understand the areas experiencing the most growth a
 To delve deeper into Computer Science, we can filter the papers by their sub-fields. The following visualization shows the percentage of research papers in each sub-field over time:
 
 ```plotly
-/blog_images/cs-trends-h1-2024/stacked_cs_research_per_year.json
+/blog_images/cs-trends-2024/stacked_cs_research_per_year.json
 ```
 
 ```plotly
-/blog_images/cs-trends-h1-2024/cs_categories_per_year_line.json
+/blog_images/cs-trends-2024/cs_categories_per_year_line.json
 ```
 
 In recent years, four main categories have shown significant growth, completely overshadowing other areas:
@@ -71,7 +71,7 @@ We are witnessing a renaissance in **Artificial Intelligence**, primarily driven
 
 To illustrate the current trends, a word cloud generated from the abstracts of papers in these fields highlights some of the hottest topics of interest. Interestingly, the phrase "experimental results" appears frequently, indicating a strong emphasis on empirical research over theoretical work. This aligns with the sentiment that, despite its successes, deep learning remains somewhat mysterious and not fully understood by even the experts.
 
-![image](/blog_images/cs-trends-h1-2024/wordcloud.png)
+![image](/blog_images/cs-trends-2024/wordcloud.png)
 
 # Closing thoughts
 
